@@ -1,0 +1,241 @@
+<!-- Candidate List starts here -->
+
+<div style="text-align: center; margin-top: 20px; position: relative;">
+
+    <div id="searchResults" collapse="!ShowResults">
+        <h2 class="demoHeaders" >Select Associate</h2>
+        <div class="dataTableWrapper">
+            <div spinner="candidateSearchSpinner"></div>
+            <h5 align="left">Search Result Records: {{model.records.itemCount()}}</h5>
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>
+                <tr>
+                <td colspan="9">
+                Filter by...
+                </td>
+                </tr>
+                <tr>
+                <td>&nbsp;
+                </td>
+                    <td>
+                        <input type="text" data-ng-model="reqFilter.associates" placeholder="...associate" size="20"/>
+                    </td>
+                    <td>
+                        <input type="text" data-ng-model="reqFilter.districtCode" placeholder="...district"  size="7"/>
+                    </td>
+                    <td>
+                        <input type="text" data-ng-model="reqFilter.humanResourcesSystemStoreNumber" placeholder="...store"  size="7"/>
+                    </td>
+                    <td>
+                        <input type="text" data-ng-model="reqFilter.humanResourcesSystemDepartmentNumber" placeholder="...department"  size="7"/>
+                    </td>
+                    <td>
+                        <input type="text" data-ng-model="reqFilter.jobTitleCode" placeholder="...title"  size="7"/>
+                    </td>
+                    <td>
+                        <input type="text" data-ng-model="reqFilter.jobTitleDescription" placeholder="...description" size="20"/>
+                    </td>
+                    <td>
+                        <input type="text" data-ng-model="reqFilter.zeroEmployeeId" placeholder="...associate id" maxlength="9" size="9" />
+                    </td>
+                    <td>
+                        <input type="text" data-ng-model="reqFilter.consentDecreeJobCategoryCode" placeholder="...category" maxlength="4" size="7"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Associate</th>
+                    <th>District Code</th>
+                    <th>Store Number</th>
+                    <th>Department</th>
+                    <th>Job Title</th>
+                    <th>Job Description</th>
+                    <th>Associate ID</th>
+                    <th>Job Category Code</th>
+                    
+                    <!-- <th data-ng-if="!searchFilter.currentJob">Candidate Reference #</th>-->
+                </tr>
+            </thead>
+                <tbody>
+                <tr data-ng-repeat="item in model.records.items |filter: reqFilter| pagingFilter:model.records.pageSize:model.records.currentPage" data-ng-cloak data-ng-class="{true:'ui-state-highlight'}[model.records.currentItem===item]" >
+                    <td>
+                    	 <input type="checkbox" data-ng-model="item.selected" data-ng-checked="item.selected" data-ng-hide="ShowApplied"> 
+                    </td>
+                    <td data-ng-click="model.records.setCurrentItem(item);">{{item.associates}}</td>
+                    <td data-ng-click="model.records.setCurrentItem(item);">{{item.districtCode}}</td>
+                    <td data-ng-click="model.records.setCurrentItem(item);">{{item.humanResourcesSystemStoreNumber}}</td>
+                    <td data-ng-click="model.records.setCurrentItem(item);">{{item.humanResourcesSystemDepartmentNumber}}</td>
+                    <td data-ng-click="model.records.setCurrentItem(item);">{{item.jobTitleCode}}</td>
+                    <td data-ng-click="model.records.setCurrentItem(item);">{{item.jobTitleDescription}}</td>
+                    <td data-ng-click="model.records.setCurrentItem(item);">{{item.zeroEmployeeId}}</td>
+                    <td data-ng-click="model.records.setCurrentItem(item);">{{item.consentDecreeJobCategoryCode}}</td>
+                </tr>
+                
+            </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="9">
+                        <div pagination total-items="model.records.itemCount()" page="model.records.currentPage" max-size="5" class="pagination-centered" boundary-links="true" rotate="true" items-per-page="model.records.pageSize" on-select-page="model.records.goToPage(page)" data-ng-hide="model.records.itemCount() <= model.records.pageSize"></div>
+                        <div data-ng-cloak data-ng-if="model.records.itemCount() === 0">{{notFound}}</div>
+                    </td>
+                </tr></tfoot>
+            </table>
+        </div>
+        
+        <!--  buttons starts here -->
+        <div class="buttonsAction" style="width:100%; text-align: center" data-ng-hide="ShowApplied">
+            <button id="reviseSearchButton" type="button" data-ng-click="ShowMain()"       data-ng-if="ShowResults" class="ui-state-hover">Back to Main Screen</button>   
+            <button id="reviseSearchButton" type="button" data-ng-click="navSearch()"      data-ng-if="ShowResults" class="ui-state-hover">Close</button>      	
+        	<button id="reviseSearchButton" type="button" data-ng-click="ApplySelected()"  data-ng-if="ShowResults" class="ui-state-hover">Apply</button>
+        	<button id="reviseSearchButton" type="button" data-ng-click="ApplyAll()"       data-ng-if="ShowResults" class="ui-state-hover" >Apply All</button>
+        	
+     	</div>
+     	<div class="buttonsAction" style="width:100%; text-align: center" data-ng-if="ShowApplied">
+            <button id="reviseSearchButton" type="button" data-ng-click="ShowMain()"  data-ng-if="ShowResults" class="ui-state-hover">Back to Main Screen</button>
+            <button id="reviseSearchButton" type="button" data-ng-click="navSearch()" data-ng-if="ShowResults" class="ui-state-hover">Close</button>
+        	<button id="reviseSearchButton" type="button" data-ng-click="getReport()" data-ng-if="ShowResults" class="ui-state-hover">Reports</button>
+        	
+        	
+     	</div>
+        <!--  buttons ends here -->
+       <!--  <div data-ng-show="showToggleRehireEligibilityMessage" data-ng-cloak class="text-center small">* Rehire eligibility cannot be confirmed for the candidate at this time. Eligibility will be verified when the offer is made and the candidate provides their SSN.</div>-->
+    </div>
+
+</div>
+<!-- Search List ends here -->
+<!--Search Associate Dialog-->
+ <div spinner="advancedSearchSpinner"></div>
+<form name="searchFilter" class="form-horizontal" >
+   
+    <div id="search_dialog" align="center" collapse="ShowResults">
+    
+        <fieldset style="text-align: left; width:  900px;">
+            <legend>Search Criteria</legend>
+			
+            <div class="form-group row">
+                <div class="col-sm-4">Category Specific Quick Search:</div>
+                <div class="col-sm-8" >
+                  <select  data-ng-model="searchFilter.quickSearchSelect" data-ng-options="value.id as value.label  for value in model.quickSearchSelect"  > 
+	                  	<!-- Populated by getAdvancedSearchCategory --> 
+    	           		<OPTION VALUE="">Select</OPTION>
+                    </select>
+                    
+                   <input id="submitButton" type="button" value="Quick Search" data-ng-if="!ShowResults" data-ng-click="getAdvancedQuickSearch()">
+                   <input id="submitButton" type="button" value="Quick Search and Apply" data-ng-if="!ShowResults" data-ng-click="getAdvancedQuickSearchAndApply()">
+                </div>
+            </div>
+          </fieldset>
+           <fieldset style="text-align: left; width:  900px;">
+            <legend>Advanced Search Criteria:</legend>
+		
+            <div class="form-group row">
+            <table>
+            <tr>
+            	<td style="width:2%">&nbsp;</td>
+            	<td style="width:2%">&nbsp;</td>
+            	<td style="width:20%">&nbsp;Data Field</td>
+            	<td style="width:5%">Operator</td>
+            	<td style="width:15%">&nbsp;Data Value</td>
+            	<td style="width:26%">&nbsp;Data Select</td>
+            	<td style="width:2%">&nbsp;</td>
+            	<td style="width:8%"></td>
+            	
+            </tr>
+			
+			<tr data-ng-model="model.queries" data-ng-repeat="query in model.queries">	
+              	<td height="30px">
+            		<input type="checkbox"  data-ng-model="query.selected" name="selectQuery" id="selectQuery">
+            	</td> 
+            	<td height="30px">
+            	<select data-ng-model="query.openParenVal" data-ng-if="model.queries.length >= 3">
+            		<option value=""></option>
+            		<option value="(">(</option>
+            	</select>
+            	</td >
+	            <td height="30px">
+	            	<select style="width:100%"  data-ng-model="query.dataFieldName"   data-ng-change="getAdvancedSearchSelectData($index, true)" data-ng-options="value.id as value.label  for value in model.advancedSearchDataField">
+	             		<OPTION value="">Select</OPTION>
+	             	</select>
+				</td>
+               	<td height="30px">
+            		<select  style="width:100%" data-ng-model="query.operator" data-ng-change="checkMultipleSelect($index)" data-ng-init="model.advancedSearchOperatorListNames[$index]='='"   data-ng-options="value.id as value.label  for value in model.advancedSearchOperatorLists[query.operatorListType]">
+            		 	
+            		</select>
+				</td> 
+            	<td height="30px">
+            		<INPUT data-ng-if="!query.multipleSelect" style="width:100%" data-ng-model="query.dataValue" type=text name="advancedSearchDataValue"  id="advancedSearchDataValue" size=16 value="" >
+            		<textarea data-ng-if="query.multipleSelect" rows="3" style="width:100%" data-ng-model="query.dataValue" name="advancedSearchDataValue"  id="advancedSearchDataValue"></textarea>
+				</td>
+            	<td data-ng-if="query.show == 'dropdown'" height="30px">
+                    <select data-ng-if="!query.multipleSelect" style="width:100%" data-ng-model="query.dataSelect"  data-ng-change="updateDataValue($index)" data-ng-options="value.dataValue as value.label  for value in model.advancedSearchDataSelectDisplays[$index] | orderBy:'label'" >
+                    <OPTION value="">Select</OPTION>  
+                    </select>
+                    <select data-ng-if="query.multipleSelect" multiple style="width:100%"   data-ng-model="query.dataSelect"  data-ng-change="updateDataValueMultiple($index)" data-ng-options="value.dataValue as value.label  for value in model.advancedSearchDataSelectDisplays[$index] | orderBy:'label'" >
+                    <OPTION value="">Select Mulitple</OPTION>  
+                    </select>
+            	</td>
+            	<td data-ng-if="query.show == ''" height="30px">
+                    <INPUT  style="width:100%" value="Make a selection in Data Field list" data-ng-disabled=true>
+            	</td>
+            	<td data-ng-if="query.show == 'enterdata'" height="30px">
+                    <INPUT  style="width:100%" value="Enter a value into Data Value field" data-ng-disabled=true>
+            	</td>
+            	<td data-ng-if="query.show == 'loading'" height="30px">
+                    <INPUT  style="width:100%" value="Loading List..." data-ng-disabled=true>
+            	</td>
+            	<td height="30px">
+	            	<select data-ng-model="query.closeParenVal" data-ng-if="model.queries.length >= 3">
+	            		<option value=""></option>
+	            		<option value=")">)</option>
+	            	</select>
+            	</td>
+            	<!-- and or -->
+            	<td height="30px">
+	            	<select style="width:100%" data-ng-model="query.andOr" data-ng-hide="$last" >
+		            	<OPTION value="AND">And</OPTION>
+		            	<OPTION value="OR">Or</OPTION>
+	            	</select>
+            	</td>
+
+            </tr>
+            
+            <tr>
+            
+            	<td colspan=5></td>
+            	<td align="right">
+            		<input id="deleteRowButton" type="button" value="Delete Row" data-ng-if="!ShowResults" data-ng-click="deleteRow()" data-ng-hide="model.queries.length <= 1">&nbsp; 
+            	</td>
+            	<td></td>
+            	<td  align="left"> 
+            		<input id="insertRowButton" type="button" value="Insert Row" data-ng-if="!ShowResults" data-ng-click="insertRow()" data-ng-hide="model.queries.length >=  20"> 
+            	</td>
+            </tr>
+            </table>
+     <div>&nbsp;</div>           
+     <div class="buttonsAction" style="width:100%; text-align: center">     
+    <button type="button" class="button ui-state-hover" data-ng-click="ShowMain()">Back to Main Screen</button>     
+    <button type="button" class="button ui-state-hover" data-ng-click="clearValues()">Clear Values</button>
+    <button type="button" class="button ui-state-hover" data-ng-click="getAdvancedSearch(false)">Search</button>
+    <button type="button" class="button ui-state-hover" data-ng-click="getAdvancedSearch(true)">Search and Apply</button>
+    <button type="button" class="button ui-state-hover" data-ng-click="newSearch()">New</button>
+    <button type="button" class="button ui-state-hover" data-ng-click="ShowLoadSQLModal()">Load</button>
+    <button type="button" class="button ui-state-hover" data-ng-click="ShowSaveSQLModal()">Save</button>
+                       
+   </div>
+   
+                </div>
+            
+        </fieldset>
+    </div> 
+    
+</form>
+
+<!--SQL Load Dialog-->
+<div modal="loadSQLDialog" modal-template="JobEditDialog" modal-template-folder="Templates" controller="LoadSQLModalCtrl" modal-resolve="jobs.currentItem"></div>
+
+<!--Load Options Dialog-->
+<div modal="loadOptionsDialog" modal-template="JobEditDialog" modal-template-folder="Templates" controller="LoadSQLModalCtrl" modal-resolve="jobs.currentItem"></div>
+
+
+                        
+                        

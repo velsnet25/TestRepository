@@ -1,0 +1,137 @@
+<div style="text-align: center; margin-top: 20px; position: relative;">
+	
+	<h2>Address</h2>
+    <h3 data-ng-if="errorMessage !== null">{{errorMessage}}</h3>
+
+    <div spinner="addressSpinner"></div>
+    <div class = "text-left"><h4>{{firstName}} {{lastName}}, {{jobTitle}}</h4></div>
+   	<div class = ".container no-horizontal-scroll">
+  	<!-- <div class ="row" data-ng-repeat="item in address.items">  -->
+  	<h4 class = "text-left" style="text-indent: 1em;">{{item.name}}</h4>
+  		<div class = "col-md-2"></div>
+   		<div class = "col-md-4">
+		
+	   		<table class ="cell-border-white">
+	   		<tr>
+	   			<td colspan = "2" class = "text-center"> <h4>Work Address</h4></td>
+	   		</tr>
+		   			<tr>
+		   				<td class= "no-border text-right"><strong>Street</strong></td>
+		   				<td class = "cell-bordered text-left">{{item.workAddressDTO.addressLineOneLong}}&nbsp;</td>
+					</tr>
+					<tr>
+		   				<td class= "no-border text-right"><strong></strong></td>
+		   				<td class = "cell-bordered text-left">{{item.workAddressDTO.addressLineTwoLong}}&nbsp;</td>
+					</tr>
+					<tr>
+		   				<td class= "no-bordert text-right"><strong></strong></td>
+		   				<td class = "cell-bordered text-left">&nbsp;{{item.workAddressDTO.addressLineThreeText}}&nbsp;</td>
+					</tr>
+					<tr>
+		   				<td class= "no-border text-right"><strong></strong></td>
+		   				<td class = "cell-bordered text-left">&nbsp;{{item.workAddressDTO.addressLine4Text}}&nbsp;</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>City</strong> </td>
+						<td class = "cell-bordered text-left">{{item.workAddressDTO.addressCity}}&nbsp;</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>County Name</strong></td>
+						<td class = "cell-bordered text-left">{{item.workAddressDTO.county}}&nbsp;</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>State</strong></td>
+						<td class = "cell-bordered text-left">{{item.workAddressDTO.stateProvince}}&nbsp;</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>Postal Code</strong> </td>
+						<td class = "cell-bordered text-left">{{item.workAddressDTO.postalCodeEleven}}&nbsp;</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>Country</strong></td>
+						<td class = "cell-bordered text-left">{{item.workAddressDTO.country}}&nbsp;</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>Phone</strong></td>
+						<td class = "cell-bordered text-left">{{item.workAddressDTO.phoneNumber}}&nbsp;</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>Extension</strong></td>
+						<td class = "cell-bordered text-left">{{item.workAddressDTO.phoneExtension}}&nbsp;</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>FAX</strong></td>
+						<td class = "cell-bordered text-left">{{item.workAddressDTO.faxNumber}}&nbsp;</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>Email</strong></td>
+						<td class = "cell-bordered text-left">{{item.workAddressDTO.email}}&nbsp;</td>
+					</tr>
+		   		</table>
+		 
+			</div>
+   		<div class = "col-md-4">
+		
+   			<table class ="cell-border-white">
+	   		<tr>
+	   			<td colspan = "2" class = "text-center"> <h4>Home Address</h4></td>
+	   		</tr>
+    				<tr>
+		   				<td class= "no-border text-right"><strong>Street</strong></td>
+		   				<td class = "cell-bordered text-left">{{item.homeAddressDTO.addressLineOneLong}}</td>
+					</tr>
+					<tr>
+		   				<td class= "no-border text-right"><strong></strong></td>
+		   				<td class = "cell-bordered text-left">&nbsp;{{item.homeAddressDTO.addressLineTwoLong}}</td>
+					</tr>
+					<tr>
+		   				<td class= "no-border text-right"><strong></strong></td>
+		   				<td class = "cell-bordered text-left">&nbsp;{{item.homeAddressDTO.addressLineThreeText}}</td>
+					</tr>
+					<tr>
+		   				<td class= "no-border text-right"><strong></strong></td>
+		   				<td class = "cell-bordered text-left">&nbsp;{{item.homeAddressDTO.addressLine4Text}}</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>City</strong> </td>
+						<td class = "cell-bordered text-left">{{item.homeAddressDTO.addressCity}}</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>State</strong></td>
+						<td class = "cell-bordered text-left">{{item.homeAddressDTO.stateProvince}}</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>Postal Code</strong> </td>
+						<td class = "cell-bordered text-left">{{item.homeAddressDTO.postalCodeEleven}}</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>Country</strong></td>
+						<td class = "cell-bordered text-left">{{item.homeAddressDTO.country}}</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>Phone</strong></td>
+						<td class = "cell-bordered text-left">{{item.homeAddressDTO.phoneNo}}</td>
+					</tr>					
+					<tr>
+						<td class= "no-border text-right"><strong>Home FAX</strong></td>
+						<td class = "cell-bordered text-left">{{item.homeAddressDTO.faxNumber}}</td>
+					</tr>
+					<tr>
+						<td class= "no-border text-right"><strong>Cell Phone</strong></td>
+						<td class = "cell-bordered text-left">{{item.homeAddressDTO.phoneNumber}}</td>
+					</tr>
+		   		</table>
+		   	</div>
+			<div class = "col-md-2"></div>
+		   
+  		</div>
+  		
+  	<!--  Buttons start here -->
+  	<div align="center">
+		<br/><br/>
+	    <button type="button" class="button ui-state-hover" data-ng-click="selectAssociate()">Select Associate</button>
+	    <button type="button" data-ng-disabled="!hasPrevious" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasPrevious]" data-ng-click="prevAssociate()">Previous Associate</button>
+	    <button type="button" data-ng-disabled="!hasNext" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasNext]" data-ng-click="nextAssociate()">Next Associate</button>
+	</div>
+  	<!--  Buttons ends here -->
+  	</div>

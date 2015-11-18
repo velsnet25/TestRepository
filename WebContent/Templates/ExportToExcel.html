@@ -1,0 +1,47 @@
+
+<center>
+    <h2>Reporting Criteria</h2>
+    	<div>
+	 
+<br/>
+<h4 align="left">Report Name: Export To Excel</h4>
+<br/>
+<hr style="height:1px;border:none;color:#333;background-color:#333;" />
+<br/>
+<form method="POST" name="excelForm" action="rs/ReportingService/getExcelSheetReport/" target="_blank">
+<h5 align="left">Print Report for : 
+<select data-ng-model="reportSelection">
+						<option value="1" >Basic Report </option>
+                        <option value="2" >Work History - External </option>
+                        <option value="3" >Work History - Internal </option>
+                        <option value="4" >Education </option>
+                        <option value="5" >Key Courses/Certifications/Awards </option>
+                        <option value="6" >Career Planning </option>
+                        <option value="7" >Mobility </option>
+                        <option value="8" >Languages </option>
+                        <option value="9" >Departmental Experience</option>
+                    </select>
+ <input type="hidden" id="exportToExcelInput" name="exportToExcelInput" value = ''/>
+					                   
+ <input id="IncludeRatings" type="checkbox"> Include Rating                   
+                   
+
+   <!-- <input type="submit" class="button ui-state-hover" name="Print Preview"/> -->
+   <button type="button" class="button ui-state-hover" data-ng-click="onPrint()">Print Preview</button>
+ &nbsp;&nbsp;&nbsp;         
+ <button type="button" class="button ui-state-hover" data-ng-click="selectAssociate()">Select Associate</button>  
+  &nbsp;&nbsp;&nbsp;
+ <button type="button" class="button ui-state-hover" data-ng-click="navSearch()" data-ng-if="displayBackToSerachButton">Back to Search</button>
+ 
+  </h5>
+ <hr style="height:1px;border:none;color:#333;background-color:#333;"/>
+ 
+	</div>
+</form>	
+</center>
+
+
+
+ 
+
+

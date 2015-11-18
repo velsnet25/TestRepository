@@ -1,0 +1,33 @@
+{
+	"status":"SUCCESS",
+	"addressList":[
+		{
+		"name":"Taylor Jones, IT DEV II",
+		"location1Work":"2455 Paces Ferry Rd",
+		"location2Work":"Apt 123",
+		"location3Work":"",
+		"location4Work":"",
+		"cityWork":"Smyrna",
+		"countyWork":"Cobb",
+		"stateWork":"GA",
+		"postalWork":"30080",
+		"countryWork":"USA",
+		"phoneWork":"770-433-8211",
+		"extensionWork":"12345",
+		"faxWork":"",
+		"emailWork":"test_email@homedepot.com",
+		"location1Home":"12345 Peachtree Rd",
+		"location2Home":"",
+		"location3Home":"",
+		"location4Home":"",
+		"cityHome":"Atlanta",
+		"stateHome":"GA",
+		"postalHome":"56432",
+		"countryHome":"USA",
+		"phoneHome":"770-564-8970",
+		"extensionHome":"86598",
+		"faxHome":"",
+		"cellPhoneHome":"770-983-5689"
+		}
+	]
+}

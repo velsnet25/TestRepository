@@ -1,0 +1,65 @@
+<!-- Candidate List starts here -->
+<div style="text-align: center; margin-top: 20px; position: relative;">
+
+    <div id="searchResults" collapse="!ShowResults">
+        <h2 class="demoHeaders">Select Associate</h2>
+        
+        <br/>
+           <!-- Report Button --> 
+           <button id="backToMain" type="button" data-ng-click="navSearch()" class="ui-state-hover" title="Advanced Search">Advanced Search</button>
+        	
+           <!-- Report Button --> 
+           <button id="backToMain" type="button" data-ng-click="getReport()" class="ui-state-hover" title="Reports">Reports</button>
+        
+           <!-- Back to Welcome Menu--> 
+           <button id="backToMain" type="button" data-ng-click="ShowMain()" class="ui-state-hover" title="Back To Main Screen">Back to Main screen</button>
+        
+ 		   <!-- Back -->
+ 		   <button id="backToMain" type="button" data-ng-click="goBack()" class="ui-state-hover" title="Back">Back</button>
+        
+	   
+	   
+        <div class="dataTableWrapper">
+           <!--  <div spinner="selectSpinner"></div> -->
+          
+            <h5 align="left">Associate Records count: {{model.count}}</h5>
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>
+                <tr>
+                    <td colspan="11">
+                        <input type="text" data-ng-model="reqFilter" placeholder="Filter By..." />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <th>First Name</th>                    
+                    <th>Associate ID</th>
+                    <th>Preferred Name</th>
+                    <th>Job Title</th>
+                    <th>Store/Location No</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr data-ng-repeat="item in model.records.items | filter:reqFilter | pagingFilter:model.records.pageSize:model.records.currentPage" data-ng-cloak data-ng-class="{true:'ui-state-highlight'}[model.records.currentItem===item]" data-ng-click="model.records.setCurrentItem(item);ShowBasicInfo();">
+                    <td>{{item.lastName}}</td>
+                    <td>{{item.firstName}}</td>
+                    <td>{{item.zeroEmployeeId}}</td>
+                    <td>{{item.preferenceName}}</td>
+                    <td>{{item.jobTitleDescription}}</td>
+                    <td>{{item.humanResourcesSystemStoreNumber}}</td>
+                </tr>
+                
+            </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="11">
+                        <div pagination total-items="model.records.itemCount()" page="model.records.currentPage" max-size="5" class="pagination-centered" boundary-links="true" rotate="true" items-per-page="model.records.pageSize" on-select-page="model.records.goToPage(page)" data-ng-hide="model.records.itemCount() <= model.records.pageSize"></div>
+                        <div data-ng-cloak data-ng-if="model.records.itemCount() === 0">{{notFound}}</div>
+                    </td>
+                </tr></tfoot>
+            </table>
+        </div>
+    </div>
+
+</div>
+<!-- Candidate List ends here -->

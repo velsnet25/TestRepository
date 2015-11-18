@@ -1,0 +1,5 @@
+[
+    {code: "CASHR", description: "Cashier"},
+    {code: "SALES", description: "Sales"},
+    {code: "DEPTSUP", description: "Department Supervisor"}
+]

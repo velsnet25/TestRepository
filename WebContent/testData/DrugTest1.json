@@ -1,0 +1,27 @@
+{
+    "status": "SUCCESS",
+    "valid": true,
+    "drugTestResultsList": [
+        {
+            "name": "test test",
+            "associateId": "115916074",
+            "applicantId": "103204695",
+            "customerReferenceId": "0000001857",
+            "testDate": "2014-04-21 15:50:46.023005",
+            "specimenId": "9999826",
+            "testResult": "PASS",
+            "testReason": "POST ACCIDENT",
+            "storeId": "0403"
+        },
+        {
+            "name": "test test",
+            "applicantId": "100029257",
+            "customerReferenceId": "0000002818",
+            "testDate": "2014-04-21 16:42:41.197649",
+            "specimenId": "9999828",
+            "testResult": "PASS",
+            "testReason": "POST ACCIDENT",
+            "storeId": "0403"
+        }
+    ]
+}

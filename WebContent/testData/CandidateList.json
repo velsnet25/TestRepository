@@ -1,0 +1,331 @@
+{
+    "status": "SUCCESS",
+    "valid": true,
+    "candidateList": [
+        {
+            "applicantID": "121967588",
+            "lastName": "CARONEBIKELAST",
+            "firstName": "CARONEBIKE",
+            "middleInitialName": "",
+            "candidateDate": "2014-06-19",
+            "interviewStatusIndicator": "",
+            "drugTestResultCode": "",
+            "candidateOfferMadeFlag": "",
+            "candidateOfferStatusIndicator": "",
+            "activeFlag": true,
+            "assocApplicant": "CA",
+            "offerDeclineReason": " ",
+            "applicantType": "EXT",
+            "employmentCandidateId": "0000194640",
+            "interviewScheduled": false,
+            "backgroundList": [
+                {
+                    "backgroundCheckId": 0,
+                    "backgroundCheckSystemAlertStatusCode": 0,
+                    "overrideAlertStatusCode": 0,
+                    "alertStatusDescription": "Open",
+                    "backgroundCheckComponents": [
+                        {
+                            "componentId": 2,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 6,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 7,
+                            "sequenceNumber": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "applicantID": "123747356",
+            "lastName": "DOMNIC",
+            "firstName": "PETER",
+            "middleInitialName": "",
+            "candidateDate": "2014-06-18",
+            "interviewStatusIndicator": "",
+            "drugTestResultCode": "",
+            "candidateOfferMadeFlag": "",
+            "candidateOfferStatusIndicator": "",
+            "activeFlag": true,
+            "assocApplicant": "CA",
+            "offerDeclineReason": " ",
+            "applicantType": "EXT",
+            "employmentCandidateId": "0000194505",
+            "interviewScheduled": false,
+            "backgroundList": [
+                {
+                    "backgroundCheckId": 0,
+                    "backgroundCheckSystemAlertStatusCode": 2,
+                    "overrideAlertStatusCode": 0,
+                    "alertStatusDescription": "YELLOW",
+                    "backgroundCheckComponents": [
+                        {
+                            "componentId": 2,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 6,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 7,
+                            "sequenceNumber": 0
+                        }
+                    ]
+                },
+                {
+                    "backgroundCheckId": 0,
+                    "backgroundCheckSystemAlertStatusCode": 3,
+                    "overrideAlertStatusCode": 0,
+                    "alertStatusDescription": "GREEN",
+                    "backgroundCheckComponents": [
+                        {
+                            "componentId": 3,
+                            "sequenceNumber": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "applicantID": "122025014",
+            "lastName": "FIGOFOURLAST",
+            "firstName": "FIGOFOUR",
+            "middleInitialName": "",
+            "candidateDate": "2014-06-18",
+            "interviewStatusIndicator": "",
+            "drugTestResultCode": "",
+            "candidateOfferMadeFlag": "",
+            "candidateOfferStatusIndicator": "",
+            "activeFlag": true,
+            "assocApplicant": "CA",
+            "offerDeclineReason": " ",
+            "applicantType": "EXT",
+            "employmentCandidateId": "0000194830",
+            "interviewScheduled": false,
+            "backgroundList": [
+                {
+                    "backgroundCheckId": 0,
+                    "backgroundCheckSystemAlertStatusCode": 1,
+                    "overrideAlertStatusCode": 0,
+                    "alertStatusDescription": "RED",
+                    "backgroundCheckComponents": [
+                        {
+                            "componentId": 2,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 6,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 7,
+                            "sequenceNumber": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "applicantID": "122025013",
+            "lastName": "FIGOTHREELAST",
+            "firstName": "FIGOTHREE",
+            "middleInitialName": "",
+            "candidateDate": "2014-06-18",
+            "interviewStatusIndicator": "Favorable",
+            "drugTestResultCode": "",
+            "candidateOfferMadeDate": "2014-06-20",
+            "candidateOfferMadeFlag": "Y",
+            "candidateOfferStatusIndicator": "AC",
+            "activeFlag": true,
+            "assocApplicant": "CA",
+            "offerDeclineReason": " ",
+            "applicantType": "EXT",
+            "employmentCandidateId": "0000194829",
+            "interviewScheduled": false,
+            "backgroundList": [
+                {
+                    "backgroundCheckId": 0,
+                    "backgroundCheckSystemAlertStatusCode": 0,
+                    "overrideAlertStatusCode": 0,
+                    "alertStatusDescription": "Open",
+                    "backgroundCheckComponents": [
+                        {
+                            "componentId": 2,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 6,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 7,
+                            "sequenceNumber": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "applicantID": "121975126",
+            "lastName": "GUNASEKHARAN",
+            "firstName": "SARAN",
+            "middleInitialName": "",
+            "candidateDate": "2014-06-18",
+            "interviewStatusIndicator": "",
+            "drugTestResultCode": "",
+            "candidateOfferMadeFlag": "",
+            "candidateOfferStatusIndicator": "",
+            "activeFlag": false,
+            "assocApplicant": "CA",
+            "offerDeclineReason": " ",
+            "applicantType": "EXT",
+            "employmentCandidateId": "0000194705",
+            "interviewScheduled": false,
+            "backgroundList": [
+                {
+                    "backgroundCheckId": 0,
+                    "backgroundCheckSystemAlertStatusCode": 0,
+                    "overrideAlertStatusCode": 0,
+                    "alertStatusDescription": "Open",
+                    "backgroundCheckComponents": [
+                        {
+                            "componentId": 2,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 6,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 7,
+                            "sequenceNumber": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "applicantID": "122026514",
+            "lastName": "RAHANE",
+            "firstName": "TAMBE",
+            "middleInitialName": "",
+            "candidateDate": "2014-06-18",
+            "interviewStatusIndicator": "",
+            "drugTestResultCode": "",
+            "candidateOfferMadeFlag": "",
+            "candidateOfferStatusIndicator": "",
+            "activeFlag": false,
+            "assocApplicant": "CA",
+            "offerDeclineReason": " ",
+            "applicantType": "EXT",
+            "employmentCandidateId": "0000194865",
+            "interviewScheduled": false,
+            "backgroundList": [
+                {
+                    "backgroundCheckId": 0,
+                    "backgroundCheckSystemAlertStatusCode": 0,
+                    "overrideAlertStatusCode": 0,
+                    "alertStatusDescription": "Open",
+                    "backgroundCheckComponents": [
+                        {
+                            "componentId": 2,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 6,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 7,
+                            "sequenceNumber": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "applicantID": "116305321",
+            "lastName": "VIMALRAJ",
+            "firstName": "KESAVAKUMAR",
+            "middleInitialName": "",
+            "candidateDate": "2014-06-19",
+            "interviewStatusIndicator": "",
+            "drugTestResultCode": "",
+            "candidateOfferMadeFlag": "",
+            "candidateOfferStatusIndicator": "",
+            "activeFlag": true,
+            "assocApplicant": "CA",
+            "offerDeclineReason": " ",
+            "applicantType": "EXT",
+            "employmentCandidateId": "0000195226",
+            "interviewScheduled": false,
+            "backgroundList": [
+                {
+                    "backgroundCheckId": 0,
+                    "backgroundCheckSystemAlertStatusCode": 0,
+                    "overrideAlertStatusCode": 0,
+                    "alertStatusDescription": "Open",
+                    "backgroundCheckComponents": [
+                        {
+                            "componentId": 2,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 6,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 7,
+                            "sequenceNumber": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "applicantID": "123747413",
+            "lastName": "ZIL",
+            "firstName": "ROONEY",
+            "middleInitialName": "",
+            "candidateDate": "2014-06-18",
+            "interviewStatusIndicator": "",
+            "drugTestResultCode": "",
+            "candidateOfferMadeFlag": "",
+            "candidateOfferStatusIndicator": "",
+            "activeFlag": true,
+            "assocApplicant": "CA",
+            "offerDeclineReason": " ",
+            "applicantType": "EXT",
+            "employmentCandidateId": "0000195366",
+            "interviewScheduled": false,
+            "backgroundList": [
+                {
+                    "backgroundCheckId": 0,
+                    "backgroundCheckSystemAlertStatusCode": 0,
+                    "overrideAlertStatusCode": 0,
+                    "alertStatusDescription": "Open",
+                    "backgroundCheckComponents": [
+                        {
+                            "componentId": 2,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 6,
+                            "sequenceNumber": 0
+                        },
+                        {
+                            "componentId": 7,
+                            "sequenceNumber": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

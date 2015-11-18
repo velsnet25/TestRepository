@@ -1,0 +1,27 @@
+{ "page": "1", "total": "2",
+"requisitionNumber": "1230420052","date": "2013-03-05T11:23:45.1235", "department": "0123", "job": "ASKD",
+"records": [
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "Jane", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"},
+  {"aname": "John", "aid":"a123", "consider": "0121", "categ": "sales", "pt":"PT", "avail": "now", "lupdate": "3/23/2011"}
+  
+]}

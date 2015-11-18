@@ -1,0 +1,29 @@
+<div id="loadSQLDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all" style="width: 500px;">
+    <div class="modal-header ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix" id="closereq_dialog">
+        <span class="ui-dialog-title">Saved Searches</span>
+    </div>
+    <form name="editJob" data-ng-submit="ok()" class="form">
+        <div spinner="modalSpinner" initially-visible="false"></div>
+        <div class="ui-dialog-content ui-widget-content" style="overflow-x: hidden">
+            <div class="form-group row">
+                
+                <div class="col-sm-10" align="center">
+                    <select multiple style="width:100%" name="sqModalListSelect" data-ng-model="selected.listSelect" required   data-ng-options="sql.id as sql.label for sql in sqlModalList | orderBy:'label'">
+                          
+            		 </select>
+                </div>
+               
+                
+            </div>
+            
+        </div>
+        <div class="modal-footer ui-dialog-buttonpane ui-widget-content ui-helper-clearfix" align="center">
+            <div class="ui-dialog-buttonset" align="center">
+                <button type="button" class="button ui-state-hover" data-ng-click="load()">Load</button>
+                <button type="button" class="button ui-state-hover" data-ng-click="append()">Append</button>
+                <button type="button" class="button ui-state-hover" data-ng-click="deleteClick()">Delete</button>
+                <button type="button" class="button ui-state-hover" data-ng-click="cancel()">Close</button>
+            </div>
+        </div>
+    </form>
+</div>

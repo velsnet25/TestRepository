@@ -1,0 +1,115 @@
+
+<center>
+    <h2 align="center">Work History</h2>
+    <h2 data-ng-if="errorMessage !== null">{{errorMessage}}</h2>
+ 
+
+    <div class = "text-left"><h4>{{firstName}} {{lastName}}, {{jobTitle}}</h4></div>
+	
+   		    <div id="searchResults" >
+           <p><h4>Home Depot Work Experience</h4></p>
+        <div class="dataTableWrapper">
+         
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Division</th>                    
+                    <th>Action Description</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Date Curr Pos/Loc.</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr data-ng-repeat="item in model.records">
+                    <td>{{item.jobTitleDescription}}</td>
+                    <td>{{item.humanResourcesSystemDivisionName}}</td>
+                    <td>{{item.positionActionDescription}}</td>
+                    <td>{{item.effectiveDate | asDate | date: 'MM/dd/yyyy'}}</td>
+                    <td>{{item.relationEndDate | asDate | date: 'MM/dd/yyyy'}}</td>
+                    <td>{{item.duration}}</td>
+                </tr>
+                
+            </tbody>
+            </table>
+        </div>
+       </div>
+   		
+
+  	<div class="dataTableWrapper"><p style="text-align: left;">For work histories with a start date prior to 8-18-95, The Home Depot payroll record may display job titles that do not provide the necessary level of detail for HR Review. For this reason, you are able to make changes and corrections to your work history for any pre-1995 data . If a record is inaccurate, simply click on the box preceding that line, and click on Delete Row. To add a new record, simply click on 'Insert Row'. For any work history discrepancies after 8-18-95, you will need to make corrections through Payroll.</p></div>
+    
+    <!-- Form starts here -->
+    <p>
+    	<h4>Detailed work history descriptions for pre-1995 Home Depot work history</h4>
+	</p>
+    	 <div class="dataTableWrapper">
+            
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Division</th>                    
+                    <th>Action Description</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Date Curr Pos/Loc.</th>
+                </tr>
+            </thead>
+                <tbody >
+                <tr data-ng-repeat="item in model.records2" >                    
+                    <td>{{item.overrideJobTitleDescription}}</td>
+                    <td>{{item.divisionName}}</td>
+                    <td>{{item.actionDescription}}</td>
+                    <td>{{item.workBeginDate | asDate | date: 'MM/dd/yyyy'}}</td>
+                    <td>{{item.workEndDate | asDate | date: 'MM/dd/yyyy'}}</td>
+                    <td>{{item.duration}}</td>
+                </tr>                
+            </tbody>            
+            </table>
+        </div>
+	
+    <!-- Form ends here -->
+    
+     <!-- Form 2 starts here -->
+    <p>
+    	<h4>External Employment</h4>
+	</p>
+    	 <div class="dataTableWrapper">
+            
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>
+            	<tr>
+                    <th>Position</th>
+                    <th>Company</th>  
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Industry</th>
+                    <th>Date Curr Pos/Loc.</th>
+                </tr>
+            </thead>
+                <tbody >
+                <tr data-ng-repeat="item in model.records3">                    
+                    <td>{{item.overrideJobTitleDescription}}</td>
+                    <td>{{item.employerName}}</td>                   
+                    <td>{{item.workBeginDate | asDate | date: 'MM/dd/yyyy'}}</td>
+                    <td>{{item.workEndDate | asDate | date: 'MM/dd/yyyy'}}</td>
+                    <td>{{item.industryTypeDescription}}</td>
+                    <td>{{item.duration}}</td>
+                </tr>                
+            </tbody>
+            </table>
+        </div>
+        
+        <!--  Buttons start here -->
+  	<div align="center">
+		<br/><br/>
+	    <button type="button" class="button ui-state-hover" data-ng-click="selectAssociate()">Select Associate</button>
+	    <button type="button" data-ng-disabled="!hasPrevious" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasPrevious]" data-ng-click="prevAssociate()">Previous Associate</button>
+	    <button type="button" data-ng-disabled="!hasNext" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasNext]" data-ng-click="nextAssociate()">Next Associate</button>
+	</div>
+  	<!--  Buttons ends here -->
+  	
+</center>
+
+

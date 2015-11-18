@@ -1,0 +1,965 @@
+{
+    "status": "SUCCESS",
+    "valid": false,
+    "appPersonalInfoRes": {
+        "applPersonalInfoList": [
+            {
+                "applType": "AP",
+                "fullName": "TESTKENEXATWYTHREE, TESTKENEXATWYTHREE  ",
+                "phoneNum": "7815555322",
+                "address1": "32423  WINTER",
+                "address2": "",
+                "cityStateZip": "WALTHAM, MA 02451",
+                "applID": "102926239",
+                "emailAddress": "RSMAHAJAN@GMAIL.COM",
+                "usaEligibility": "Y",
+                "over18": "Y",
+                "onLeaveOrLaidOff": "N",
+                "preEmployee": "N",
+                "relWorkingForHD": "N",
+                "milExperience": "N",
+                "jobFullTime": "Y",
+                "jobPartTime": "Y",
+                "jobTemp": "Y",
+                "wageDesired": 213,
+                "emplApplicationDate": "2013-10-08",
+                "candRefNbr": "1850"
+            }
+        ]
+    },
+    "applJobPrefInfoRes": {
+        "applJobPrefInfoTO": [
+            {
+                "jobPref": "EARLY AM_MON"
+            },
+            {
+                "jobPref": "MORNING_MON"
+            },
+            {
+                "jobPref": "AFTERNOON_MON"
+            },
+            {
+                "jobPref": "EARLY AM_TUE"
+            },
+            {
+                "jobPref": "MORNING_TUE"
+            },
+            {
+                "jobPref": "AFTERNOON_TUE"
+            },
+            {
+                "jobPref": "EARLY AM_WED"
+            },
+            {
+                "jobPref": "MORNING_WED"
+            },
+            {
+                "jobPref": "AFTERNOON_WED"
+            },
+            {
+                "jobPref": "EARLY AM_THU"
+            },
+            {
+                "jobPref": "MORNING_THU"
+            },
+            {
+                "jobPref": "AFTERNOON_THU"
+            },
+            {
+                "jobPref": "EARLY AM_FRI"
+            },
+            {
+                "jobPref": "MORNING_FRI"
+            },
+            {
+                "jobPref": "AFTERNOON_FRI"
+            },
+            {
+                "jobPref": "EARLY AM_SAT"
+            },
+            {
+                "jobPref": "MORNING_SAT"
+            },
+            {
+                "jobPref": "AFTERNOON_SAT"
+            },
+            {
+                "jobPref": "EARLY AM_SUN"
+            },
+            {
+                "jobPref": "MORNING_SUN"
+            },
+            {
+                "jobPref": "AFTERNOON_SUN"
+            }
+        ]
+    },
+    "applLangInfoRes": {
+        "applLangInfoTOList": [
+            {
+                "language": "ENGLISH"
+            }
+        ]
+    },
+    "applSkillInfoRes": {
+        "applSkillInfoTOList": [
+            {
+                "skill": "Carpentry"
+            }
+        ]
+    },
+    "applAppHistoryInfoRes": {
+        "applAppHistoryInfoTOList": [
+            {
+                "store": "0118",
+                "lastUpdatedS": "2013-10-08T20:24:40.188EDT"
+            },
+            {
+                "store": "0128",
+                "lastUpdatedS": "2013-10-08T20:24:40.139EDT"
+            },
+            {
+                "store": "0352",
+                "lastUpdatedS": "2013-10-08T20:24:40.260EDT"
+            },
+            {
+                "store": "0403",
+                "lastUpdatedS": "2013-10-08T20:24:40.429EDT"
+            }
+        ]
+    },
+    "applAppHistoryInfoRes2": {
+        "applAppHistoryInfoTOList2": [
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PHONE CENTER ASSOCIATE",
+                "dept": "097",
+                "lastUpdatedP": "2013-10-08T20:24:40.111EDT"
+            },
+            {
+                "position": "DELIVERY PULLER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RTV ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PHONE CENTER ASSOCIATE",
+                "dept": "097",
+                "lastUpdatedP": "2013-10-08T20:24:40.111EDT"
+            },
+            {
+                "position": "DELIVERY PULLER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RTV ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PHONE CENTER ASSOCIATE",
+                "dept": "097",
+                "lastUpdatedP": "2013-10-08T20:24:40.111EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "SALES SUPPORT ASSOCIATE",
+                "dept": "038",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DELIVERY PULLER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "BILINGUAL LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DESIGNER",
+                "dept": "029",
+                "lastUpdatedP": "2013-10-08T20:24:40.426EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "010",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "035",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "041",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DELIVERY DRIVER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "028",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PHONE CENTER ASSOCIATE",
+                "dept": "097",
+                "lastUpdatedP": "2013-10-08T20:24:40.111EDT"
+            },
+            {
+                "position": "PRO LOT LOADER",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "DELIVERY PULLER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RTV ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DESIGNER",
+                "dept": "029",
+                "lastUpdatedP": "2013-10-08T20:24:40.426EDT"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "035",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PHONE CENTER ASSOCIATE",
+                "dept": "097",
+                "lastUpdatedP": "2013-10-08T20:24:40.111EDT"
+            },
+            {
+                "position": "DELIVERY PULLER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RTV ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "BILINGUAL LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "010",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "041",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "PRO LOT LOADER",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "BILINGUAL LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "010",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "041",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "028",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PRO LOT LOADER",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "DELIVERY PULLER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RTV ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DELIVERY/WILL CALL COORD",
+                "dept": "042",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RTV ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "004",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "038",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "004",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "038",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "DELIVERY/WILL CALL COORD",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DELIVERY/WILL CALL COORD",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "004",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "038",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "004",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "028",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "038",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BAY INTEGRITY ASSOCIATE",
+                "dept": "092",
+                "lastUpdatedP": "2013-10-08T20:24:40.417EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "004",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "028",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "FREIGHT TEAM ASSOCIATE",
+                "dept": "038",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BAY INTEGRITY ASSOCIATE",
+                "dept": "092",
+                "lastUpdatedP": "2013-10-08T20:24:40.417EDT"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "BILINGUAL LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DESIGNER",
+                "dept": "029",
+                "lastUpdatedP": "2013-10-08T20:24:40.426EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "010",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "035",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "041",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DELIVERY DRIVER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "028",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PHONE CENTER ASSOCIATE",
+                "dept": "097",
+                "lastUpdatedP": "2013-10-08T20:24:40.111EDT"
+            },
+            {
+                "position": "PRO LOT LOADER",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "DELIVERY PULLER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RTV ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "BILINGUAL LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DESIGNER",
+                "dept": "029",
+                "lastUpdatedP": "2013-10-08T20:24:40.426EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "010",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "035",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "041",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DELIVERY DRIVER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "028",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PHONE CENTER ASSOCIATE",
+                "dept": "097",
+                "lastUpdatedP": "2013-10-08T20:24:40.111EDT"
+            },
+            {
+                "position": "PRO LOT LOADER",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "DELIVERY PULLER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RTV ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "BILINGUAL LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DESIGNER",
+                "dept": "029",
+                "lastUpdatedP": "2013-10-08T20:24:40.426EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "010",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "035",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "041",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DELIVERY DRIVER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "028",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PHONE CENTER ASSOCIATE",
+                "dept": "097",
+                "lastUpdatedP": "2013-10-08T20:24:40.111EDT"
+            },
+            {
+                "position": "PRO LOT LOADER",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "DELIVERY PULLER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RTV ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "BILINGUAL LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.181EDT"
+            },
+            {
+                "position": "DESIGNER",
+                "dept": "029",
+                "lastUpdatedP": "2013-10-08T20:24:40.426EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "010",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "035",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DOOR MONITOR ASSOCIATE",
+                "dept": "041",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "DELIVERY DRIVER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "028",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "LOT ASSOCIATE",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PHONE CENTER ASSOCIATE",
+                "dept": "097",
+                "lastUpdatedP": "2013-10-08T20:24:40.111EDT"
+            },
+            {
+                "position": "PRO LOT LOADER",
+                "dept": "096",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2013-10-08T20:24:40.187EDT"
+            },
+            {
+                "position": "DELIVERY PULLER",
+                "dept": "094",
+                "lastUpdatedP": "2013-10-08T20:24:40.123EDT"
+            },
+            {
+                "position": "RECEIVING ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            },
+            {
+                "position": "RTV ASSOCIATE",
+                "dept": "093",
+                "lastUpdatedP": "2013-10-08T20:24:40.418EDT"
+            }
+        ]
+    }
+}

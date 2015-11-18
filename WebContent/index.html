@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" id="ng-app">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, intial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="description" content="The Home Depot Repair Portal" />
+
+        <title>HR Review System - THD Web Apps</title>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="shortcut icon" href="Images/THDlogo.ico" />
+
+       <!--[if lte IE 8]>
+        <script>
+          document.createElement('ng-include');
+          document.createElement('ng-pluralize');
+          document.createElement('ng-view');
+ 
+          // Optionally these for CSS
+          document.createElement('ng:include');
+          document.createElement('ng:pluralize');
+          document.createElement('ng:view');
+        </script>
+      <![endif]-->
+
+        <link href="css/Bootstrap3.min.css" rel="stylesheet" />
+        <link href="css/THDstyle.css" rel="stylesheet" />
+        <link href="css/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+        <link href="css/THDColorbox.css" rel="stylesheet" />
+        <link href="css/app.css" rel="stylesheet" />
+
+    </head>
+    <style>
+.cell-bordered
+{
+	border: 1px solid gray;
+	border-spacing : 2px;
+}
+.cell-border-white
+{
+	border: 1px solid white;
+	border-spacing : 2px;
+}
+.inner-table
+{
+	border-spacing :0px;
+}
+.no-side-border
+{
+	border-left:0;
+	border-right:0;
+}
+
+.no-horizontal-scroll
+{
+	overflow-x : hidden ;
+}
+
+.no-border
+{
+	border:none;
+}
+
+.wide-load
+{
+	width:100%;
+}
+</style>
+    <body class="amis" id="thdBody" >
+        <div class="ieGrad" id="thdWebApp" data-ng-controller="MainController">
+            <input id="loadingIndicator" type="hidden" value="{{main.uiLoadingIndicator}}" />
+            <div id="commonApp" >
+                <table id="header" style="width:100%">
+                    <tr>
+                        <td class="brandBox">
+                            <table>
+                                <tr>
+                                    <td><a href="index.html" title="Go Home" style="border: 0px"><img src="Images/THD_logo.png" alt="Go Home" class="logo" width="57" height="57" /></a></td>
+                                    <td style="vertical-align: middle; text-wrap: none">
+                                        <span style="position:relative; top:5px">
+                                            <span id="appName">HR Review</span><br />
+                                            <span id="appTagline"></span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        
+                        <td align="right">
+                            <div class="loginInfo" data-ng-cloak>
+                                <div>{{ main.user.firstName }} {{ main.user.lastName}}<!-- |
+                                    <a href="">Logout</a> -->
+                                </div>
+                                <!--  <div>Location <input type="text" id="mainUserLocation" data-ng-model="main.user.location" 
+                                    size="4" maxlength="4" /> - {{main.storeName}}</div> -->
+                                <!--<div>Location <input type="text" data-ng-model="main.user.location" 
+                                    typeahead='store.number as store for store in stores | filter:{number:$viewValue}|limitTo:8' 
+                                    typeahead-template-url="locationTypeaheadTemplate.html" 
+                                    typeahead-on-select="checkChangeStore()"
+                                    size="4" maxlength="4" /></div>-->
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <div id="messageBar" style="width:100%" >
+                    <div data-ng-cloak data-ng-repeat="m in messages">
+                    {{m}}
+                    </div>
+                    <div data-ng-cloak data-ng-repeat="e in errors">
+                    {{e}}
+                    </div>
+                </div>
+            </div>
+
+            <div id="appBody">
+                <div class="content-wrapper main-content clear-fix">
+                    <div id="app-body" class="clearfix">
+                    
+                    <!-- start menu -->
+                    
+                    <div class = "container">
+    	<div id="subnav1" style="display: none;">
+    	<table>
+    	<tr  style="vertical-align: left; text-align: center" class="menuBox">
+    	
+    	<td>
+         <nav>
+         		<ul id="nav">
+	                         <li class="menu wide-load" >
+	                             <a>Transactions</a>
+	                             <ul class="subnav">
+	                                 <li><a data-ng-click="navFind()" data-ng-class="{active: currentRoute=='Jobs'}">Find</a></li>
+	                                 <li><a data-ng-click="navSearch()">Search</a></li>
+	                             </ul>
+	                         </li>
+	                     </ul>
+         </nav>
+         </td>
+         
+    	<td>
+         <nav>
+         		<ul id = "nav">
+	                         <li class="menu  wide-load">
+	                             <a>Personal</a>
+	                             <ul class="subnav">
+	                                 <li><a data-ng-click="navBasicInfo()">Basic Information</a></li>
+	                                 <li><a data-ng-click="navAddress()">Address</a></li>
+	                                 <li><a  data-ng-click="navEducation()">Education</a></li>
+	                                 <li><a data-ng-click="navLanguage()">Languages</a></li>
+	                                 <li><a data-ng-click="getWorkHistory()">Work History</a></li>
+	                             </ul>
+	                         </li>
+	                     </ul>
+         </nav>
+         </td>
+       
+         <td>
+         <nav>
+         		<ul id="nav">
+	                         <li class="menu wide-load" >
+	                             <a>Performance and Development</a>
+	                             <ul class="subnav">
+	                                 <li><a data-ng-click="navRating()" data-ng-class="{active: currentRoute=='Jobs'}">Ratings</a></li>
+	                                 <li><a data-ng-click="navNextPosition()">Next Positions</a></li>
+	                             </ul>
+	                         </li>
+	                     </ul>
+         </nav>
+         </td>
+         <td>
+         <nav>
+         		<ul id="nav">
+	                         <li class="menu wide-load">
+	                             <a>Reports</a>
+	                             <ul class="subnav">
+	                                 <li><a data-ng-click="navReport1()" data-ng-class="{active: currentRoute=='Jobs'}">Associate Profile</a></li>
+	                                 <li><a  data-ng-click="navReport2()">Export to Excel</a></li>
+	                                 <li><a data-ng-click="navReport3()">Performance and Development Summary</a></li>
+	                             </ul>
+	                         </li>
+	                     </ul>
+         </nav>
+         </td>      
+         
+    	</tr>
+    	</table>
+	    	
+                     
+        </div> 
+        
+                    <!--  end menu -->
+                    
+                        <div data-ng-view=""></div>
+                        
+                        <!-- @RenderBody() -->
+                    </div>
+                </div>
+            </div>
+            <div id="copyright"><br/><br/>Copyright &copy; 2015 Homer TLC, Inc. All Rights Reserved.</div>
+        </div>
+        <div id="release">Release 2.0</div>
+
+        <div modal="errorMessage" modal-Template="ErrorModal" modal-Template-Folder="Templates" controller="ErrorCtrl"></div> 
+        <div modal="confirmModal" modal-Template="ConfirmModal" modal-Template-Folder="Templates" controller="ConfirmCtrl"></div>
+
+        <!--[if lt IE 9]>
+            <script src="js/libs/respond.min.js"></script>
+            <script src="js/libs/placeholders.min.js"></script>
+            <script src="js/libs/ieshiv.js"></script>
+        <![endif]-->
+                <script src="js/libs/require.min.js"></script>
+
+        <script>
+            require(['js/apprequire']);
+        </script>
+
+        <script type="text/ng-template" id="locationTypeaheadTemplate.html">
+            <a>{{match.model.number}} - {{match.model.name}}</a>
+        </script>
+
+
+    </body>
+</html>
+

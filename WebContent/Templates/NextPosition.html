@@ -1,0 +1,53 @@
+
+<center>
+ <div class = "text-left">
+    <h2 align="center">Next Position</h2>
+    <h2 data-ng-if="errorMessage !== null">{{errorMessage}}</h2>
+	 <h4>{{firstName}} {{lastName}}, {{jobTitle}}</h4>
+</div>
+
+   		    <div id="searchResults" >
+    </p>
+        <div class="dataTableWrapper">
+            
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>
+                <tr>
+                <th colspan="2">Potential Next Positions/Timing(Ready Now, Short Term, Long Term) Last Update Date: {{currentTime | asDate | date: 'MM/dd/yyyy'}}</th>
+                </tr>
+                <tr>                   
+                    <th class="col-sm-6">Position</th>
+                    <th class="col-sm-6">Readiness</th> 
+                    <!-- <th data-ng-if="!searchFilter.currentJob">Candidate Reference #</th>-->
+                </tr>
+            </thead>
+                <tbody>
+                <tr data-ng-repeat="item in model.records">
+                    
+                    <td class="col-sm-6">{{item.overridePositionDescription}}</td>
+                    <td class="col-sm-6">{{item.successionPlanGoalStatusDescription}}</td>
+                </tr>
+                
+            </tbody>
+              <!--  <tfoot>
+                <tr>
+                    <td colspan="11">
+                        <div pagination total-items="model.records.itemCount()" page="model.records.currentPage" max-size="5" class="pagination-centered" boundary-links="true" rotate="true" items-per-page="model.records.pageSize" on-select-page="model.records.goToPage(page)" data-ng-hide="model.records.itemCount() <= model.records.pageSize"></div>
+                        <div data-ng-cloak data-ng-if="model.records.itemCount() === 0">{{notFound}}</div>
+                    </td>
+                </tr></tfoot>  --> 
+            </table>
+        </div>
+       <!--  <div data-ng-show="showToggleRehireEligibilityMessage" data-ng-cloak class="text-center small">* Rehire eligibility cannot be confirmed for the candidate at this time. Eligibility will be verified when the offer is made and the candidate provides their SSN.</div>-->
+    </div>
+  
+  <div align="center">
+	<br/><br/>
+    <button type="button" class="button ui-state-hover" data-ng-click="selectAssociate()">Select Associate</button>
+    <button type="button" data-ng-disabled="!hasPrevious" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasPrevious]" data-ng-click="prevAssociate()">Previous Associate</button>
+    <button type="button" data-ng-disabled="!hasNext" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasNext]" data-ng-click="nextAssociate()">Next Associate</button>
+    </div>
+    
+</center>
+
+

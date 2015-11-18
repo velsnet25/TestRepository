@@ -1,0 +1,75 @@
+<div style="text-align: center; margin-top: 20px; position: relative;">
+
+    <div id="schoolResults"><!-- searchResults -->
+        <p>
+         <h2 class="demoHeaders">Education</h2>
+         <div class = "text-left"><h4>{{firstName}} {{lastName}}, {{jobTitle}}</h4></div>
+        </p>
+        
+        <div class="dataTableWrapper">
+        
+            <div spinner="educationSpinner"></div>
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>
+                <tr>         
+                    <th>Location</th>
+                    <th>School Type</th>
+                    <th>School</th>     
+                    <th>Degree</th>
+                    <th>Major</th>
+                    <th>Graduated</th>
+                    <th>Years Completed</th>
+                    <th>Graduation Year</th>
+                </tr>
+            </thead>
+                <tbody >
+				<tr data-ng-repeat="item in education">
+                    <td>{{item.stateCode}}</td>
+                    <td>{{item.overrideSchoolName}}</td>
+                    <td>{{item.facilityName}}</td>
+                    <td>{{item.overrideDegreeDescription}}</td>
+                    <td>{{item.overrideCollegeMajorDescription}}</td>
+                    <td>{{convertToYesOrNo(item.degreeCompletedFlag)}}</td>
+                    <td>{{item.completedYearCount}}</td>
+                    <td>{{item.schoolGraduateYear}}</td>
+                </tr>                
+            </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+    <br>
+
+    <div id="coursesResults">
+    <!-- <p><h4 align="center">Courses, Certifications, & Awards</h4></p>-->
+        <div class="dataTableWrapper">
+            <div spinner="courseSpinner"></div>
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>
+	                <tr>              
+	                    <th>Key Courses, Certifications, Awards</th>
+	                    <th>Organization</th>
+	                    <th>Start</th>     
+	                    <th>End</th>
+	                </tr>
+	            </thead>
+	            <tbody >
+					<tr data-ng-repeat="item in courses" >
+	                    <td>{{item.successionPlanCourseDescription}}</td>
+	                    <td>{{item.overrideSchoolName}}</td>
+	                    <td>{{item.beginDate  | asDate | date: 'yyyy'}}</td>
+	                    <td>{{item.endDate  | asDate | date: 'yyyy'}}</td>
+	                </tr>
+	            </tbody>
+            </table>
+      </div>
+</div>
+
+	<!--  Buttons start here -->
+  	<div align="center">
+		<br/><br/>
+	    <button type="button" class="button ui-state-hover" data-ng-click="selectAssociate()">Select Associate</button>
+	    <button type="button" data-ng-disabled="!hasPrevious" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasPrevious]" data-ng-click="prevAssociate()">Previous Associate</button>
+	    <button type="button" data-ng-disabled="!hasNext" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasNext]" data-ng-click="nextAssociate()">Next Associate</button>
+	</div>
+  	<!--  Buttons ends here -->

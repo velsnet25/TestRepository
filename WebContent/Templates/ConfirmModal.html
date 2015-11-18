@@ -1,0 +1,14 @@
+<div id="confirmModal" class="ui-dialog ui-widget ui-widget-content ui-corner-all" >
+    <div class="modal-header ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span class="ui-dialog-title">{{title}}</span>
+    </div>
+    <div class="ui-dialog-content ui-widget-content">
+        {{message}}
+    </div>
+    <div class="modal-footer ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+            <button type="button" class="button saveBtn" data-ng-click="Ok()" >{{okText}}</button>
+            <button type="button" class="button" data-ng-click="Cancel()" >{{cancelText}}</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,119 @@
+<!-- Candidate List starts here -->
+<div style="text-align: center; margin-top: 20px; position: relative;">
+
+    <div id="searchResults" collapse="!ShowResults">
+        <h2 class="demoHeaders">Associate Find Results</h2>
+        <div class="dataTableWrapper">
+            <div spinner="candidateSearchSpinner"></div>
+            <h5 align="left">Find Result Records: {{model.count}}</h5>
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>
+                <tr>
+                    <td colspan="11">
+                        <input type="text" data-ng-model="reqFilter" placeholder="Filter By..." />
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <th>First Name</th>                    
+                    <th>Associate ID</th>
+                    <th>Preferred Name</th>
+                    <th>Job Title</th>
+                    <th>Store/Location No</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr data-ng-repeat="item in model.records.items | filter:reqFilter | pagingFilter:model.records.pageSize:model.records.currentPage" data-ng-cloak data-ng-class="{true:'ui-state-highlight'}[model.records.currentItem===item]" data-ng-click="model.records.setCurrentItem(item);ShowBasicInfo();">
+                    <td>{{item.lastName}}</td>
+                    <td>{{item.firstName}}</td>
+                    <td>{{item.zeroEmployeeId}}</td>
+                    <td>{{item.preferenceName}}</td>
+                    <td>{{item.jobTitleDescription}}</td>
+                    <td>{{item.humanResourcesSystemStoreNumber}}</td>
+                </tr>
+                
+            </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="11">
+                        <div pagination total-items="model.records.itemCount()" page="model.records.currentPage" max-size="5" class="pagination-centered" boundary-links="true" rotate="true" items-per-page="model.records.pageSize" on-select-page="model.records.goToPage(page)" data-ng-hide="model.records.itemCount() <= model.records.pageSize"></div>
+                        <div data-ng-cloak data-ng-if="model.records.itemCount() === 0">{{notFound}}</div>
+                    </td>
+                </tr></tfoot>
+            </table>
+        </div>
+    </div>
+
+</div>
+<!-- Candidate List ends here -->
+<!--Search Candidate Dialog-->
+<form name="searchFilters" class="form-horizontal" data-ng-submit="DoFind()">
+    <div id="search_dialog" align="center" collapse="ShowResults">
+        <fieldset style="text-align: left; width:  395px;">
+            <legend>Select Associate</legend>
+			<div class="form-group row">
+                <div class="col-sm-6">Last Name Starts With:</div>
+                <div class="col-sm-6" popover="{{validator.fieldValidMessage('nameLast')}}" popover-trigger="mouseenter" popover-placement="right">
+                    <input id="nameLast" size="20" type="text"   maxlength="60" data-ng-model="searchFilter.nameLast" data-ng-disabled="searchFilter.associateId || searchFilter.nameContain || searchFilter.firstNameStartsWith || searchFilter.preferredNameStartsWith || searchFilter.jobTitle || searchFilter.storeNo || searchFilter.lastfirstName"/>
+                     <span class="error" ng-show="!validator.fieldValid('nameLast')">*</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">Associate ID:</div>
+                <div class="col-sm-6" popover="{{validator.fieldValidMessage('associateId')}}" popover-trigger="mouseenter" popover-placement="right">
+                    <input id="associateId" type="text" maxlength="9" data-ng-model="searchFilter.associateId" maxlength="9" data-ng-disabled="searchFilter.nameLast || searchFilter.nameContain || searchFilter.firstNameStartsWith || searchFilter.preferredNameStartsWith || searchFilter.jobTitle || searchFilter.storeNo || searchFilter.lastfirstName"/>
+                   <span class="error" ng-show="!validator.fieldValid('associateId')">*</span> 
+                </div>
+            </div>            
+            <div class="form-group row">
+                <div class="col-sm-6">Name Contains the Word:</div>
+                <div class="col-sm-6" popover="{{validator.fieldValidMessage('nameContain')}}" popover-trigger="mouseenter" popover-placement="right">
+                    <input id="nameContain" size="20" type="text" data-ng-model="searchFilter.nameContain" data-ng-disabled="searchFilter.associateId || searchFilter.nameLast || searchFilter.firstNameStartsWith || searchFilter.preferredNameStartsWith || searchFilter.jobTitle || searchFilter.storeNo || searchFilter.lastfirstName"/>
+                    <span class="error" ng-show="!validator.fieldValid('nameContain')">*</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">First Name Starts With:</div>
+                <div class="col-sm-6" popover="{{validator.fieldValidMessage('firstNameStartsWith')}}" popover-trigger="mouseenter" popover-placement="right">
+                    <input id="firstNameStartsWith" size="20" type="text" maxlength="60" data-ng-model="searchFilter.firstNameStartsWith" data-ng-disabled="searchFilter.associateId || searchFilter.nameContain || searchFilter.nameLast || searchFilter.preferredNameStartsWith || searchFilter.jobTitle || searchFilter.storeNo || searchFilter.lastfirstName" />
+                     <span class="error" ng-show="!validator.fieldValid('firstNameStartsWith')">*</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">Preferred Name Starts With:</div>
+                <div class="col-sm-6" popover="{{validator.fieldValidMessage('preferredNameStartsWith')}}" popover-trigger="mouseenter" popover-placement="right">
+                    <input id="preferredNameStartsWith" size="20" type="text" maxlength="60" data-ng-model="searchFilter.preferredNameStartsWith" data-ng-disabled="searchFilter.associateId || searchFilter.nameContain || searchFilter.firstNameStartsWith || searchFilter.nameLast || searchFilter.jobTitle || searchFilter.storeNo || searchFilter.lastfirstName" />
+                     <span class="error" ng-show="!validator.fieldValid('preferredNameStartsWith')">*</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">Job Title Starts with:</div>
+                <div class="col-sm-6" popover="{{validator.fieldValidMessage('jobTitle')}}" popover-trigger="mouseenter" popover-placement="right">
+                    <input id="jobTitle" size="20" type="text" data-ng-model="searchFilter.jobTitle" data-ng-disabled="searchFilter.associateId || searchFilter.nameContain || searchFilter.firstNameStartsWith || searchFilter.preferredNameStartsWith || searchFilter.nameLast || searchFilter.storeNo || searchFilter.lastfirstName" />
+                     <span class="error" ng-show="!validator.fieldValid('jobTitle')">*</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">Store Number:</div>
+                <div class="col-sm-6" popover="{{validator.fieldValidMessage('storeNo')}}" popover-trigger="mouseenter" popover-placement="right">
+                    <input id="storeNo" size="20" type="text" maxlength="4" data-ng-model="searchFilter.storeNo" data-ng-disabled="searchFilter.associateId || searchFilter.nameContain || searchFilter.firstNameStartsWith || searchFilter.preferredNameStartsWith || searchFilter.jobTitle || searchFilter.nameLast || searchFilter.lastfirstName" />
+                     <span class="error" ng-show="!validator.fieldValid('storeNo')">*</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">Last Name,First Name:</div>
+                <div class="col-sm-6" popover="{{validator.fieldValidMessage('lastfirstName')}}" popover-trigger="mouseenter" popover-placement="right">
+                    <input id=lastfirstName size="20" type="text" data-ng-model="searchFilter.lastfirstName" data-ng-disabled="searchFilter.associateId || searchFilter.nameContain || searchFilter.firstNameStartsWith || searchFilter.preferredNameStartsWith || searchFilter.jobTitle || searchFilter.storeNo || searchFilter.nameLast" />
+                    <span class="error" ng-show="!validator.fieldValid('lastfirstName')">*</span>
+                </div>
+            </div>
+        </fieldset>
+    </div> 
+    <div class="buttonsAction" style="width:100%; text-align: center">    
+    	<button id="backToMain" type="button" data-ng-click="ShowMain()" class="ui-state-hover" title="Back To Main Screen">Back to Main Screen</button>
+        <button id="clearButton" type="button" data-ng-click="Reset()" class="ui-state-hover" title="Clear search parameters" data-ng-if="!ShowResults">Clear</button>
+        <input id="submitButton" type="submit" value="Find" class="ui-state-hover"  data-ng-if="!ShowResults" data-ng-disabled="!validator.isValid()" data-ng-class="{true:'ui-state-disabled'}[!validator.isValid()]" ></input>
+        <button id="reviseSearchButton" type="button" data-ng-click="DoFind()" data-ng-if="ShowResults" class="ui-state-hover">Revise Find Filter</button>
+   </div>
+</form>

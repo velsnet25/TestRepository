@@ -1,0 +1,43 @@
+<div style="text-align: center; margin-top: 20px; position: relative;">
+
+ <div class = "text-left">
+    <h2 data-ng-if="errorMessage !== null">{{errorMessage}}</h2>
+    <h2 align="center">Language Results</h2></div>
+    
+    <div id="languageResults">
+        <div class = "text-left"><h4>{{firstName}} {{lastName}}, {{jobTitle}}</h4></div>
+        <div class="dataTableWrapper">
+            <div spinner="languageSpinner"></div>
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>
+                <tr>
+                    <th class="col-sm-2">Language</th>
+                    <th class="col-sm-2">Read</th>
+                    <th class="col-sm-2">Write</th>
+                    <th class="col-sm-2">Speak</th>
+                    <th class="col-sm-2">Preferred Language</th>
+                </tr>
+            </thead>
+                <tbody>
+	                <tr data-ng-repeat="item in language">
+	                    <td class="col-sm-2">{{item.languageName}}</td>
+	                    <td class="col-sm-2">{{item.read}}</td>
+	                    <td class="col-sm-2">{{item.write}}</td>
+	                    <td class="col-sm-2">{{item.speak}}</td>
+	                    <td class="col-sm-2">{{item.preferenceLanguageFlag | checkmark:true}}</td>
+	                </tr>                
+            	</tbody>                
+            </table>
+        </div>
+    </div>
+    
+    <!--  Buttons start here -->
+  	<div align="center">
+		<br/><br/>
+	    <button type="button" class="button ui-state-hover" data-ng-click="selectAssociate()">Select Associate</button>
+	    <button type="button" data-ng-disabled="!hasPrevious" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasPrevious]" data-ng-click="prevAssociate()">Previous Associate</button>
+	    <button type="button" data-ng-disabled="!hasNext" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasNext]" data-ng-click="nextAssociate()">Next Associate</button>
+	</div>
+  	<!--  Buttons ends here -->
+  	
+</div>

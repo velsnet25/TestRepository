@@ -1,0 +1,131 @@
+{
+	"status":"SUCCESS",
+	"valid":false,
+	"candidateList":[
+		{
+			"firstName":"CHARLIE",
+			"lastName":"BROWN",
+			"ID":"3343455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0403"
+		},
+		{
+			"firstName":"CALVIN",
+			"lastName":"HOBBES",
+			"ID":"3365455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0113"
+		},
+		{
+			"firstName":"CLARK",
+			"lastName":"KENT",
+			"ID":"9156455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0121"
+		},
+		{
+			"firstName":"PETER",
+			"lastName":"PARKER",
+			"ID":"9156488",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"1221"
+		},
+		{
+			"firstName":"ELSA",
+			"lastName":"ANNA",
+			"ID":"9156975",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"3236"
+		},
+		{
+			"firstName":"MARLIN",
+			"lastName":"DORY",
+			"ID":"6287455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0111"
+		},
+		{
+			"firstName":"PUMBA",
+			"lastName":"SIMON",
+			"ID":"3268455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0121"
+		},
+		{
+			"firstName":"FOX",
+			"lastName":"TROT",
+			"ID":"9834655",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0131"
+		},
+		{
+			"firstName":"MARLIN",
+			"lastName":"DORY",
+			"ID":"6287455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0111"
+		},
+		{
+			"firstName":"PUMBA",
+			"lastName":"SIMON",
+			"ID":"3268455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0121"
+		},{
+			"firstName":"MARLIN",
+			"lastName":"DORY",
+			"ID":"6287455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0111"
+		},
+		{
+			"firstName":"PUMBA",
+			"lastName":"SIMON",
+			"ID":"3268455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0121"
+		},{
+			"firstName":"MARLIN",
+			"lastName":"DORY",
+			"ID":"6287455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0111"
+		},
+		{
+			"firstName":"PUMBA",
+			"lastName":"SIMON",
+			"ID":"3268455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0121"
+		},{
+			"firstName":"MARLIN",
+			"lastName":"DORY",
+			"ID":"6287455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0111"
+		},
+		{
+			"firstName":"PUMBA",
+			"lastName":"SIMON",
+			"ID":"3268455",
+			"preferredName":"Nick Name",
+			"jobTitle": "MGR LOGISTICS CANADA",
+			"location":"0121"
+		}
+	]
+}

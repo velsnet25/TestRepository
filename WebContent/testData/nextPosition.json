@@ -1,0 +1,22 @@
+{
+	"status":"SUCCESS",
+	"valid":false,
+	"nextPositionList":[
+	{
+			"position":"Frigth Team Associate",
+			"readiness":"Grow in Position"
+		},
+		{
+			"position":"Cashier",
+			"readiness":"Long Term"
+		},
+		{
+			"position":"Head Casheir",
+			"readiness":"Short Term"
+		},
+		{
+			"position":"DOOR MONITOR ASSOC",
+			"readiness":"reay now"
+		}
+	]
+}

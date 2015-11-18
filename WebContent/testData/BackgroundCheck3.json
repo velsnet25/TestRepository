@@ -1,0 +1,57 @@
+{
+    "status": "SUCCESS",
+    "valid": true,
+    "backGroundCheckList": [
+        {
+            "lastName": "COCO",
+            "firstName": "CHAMPA",
+            "applicantId": "116417535",
+            "customerReferenceId": "0000002236",
+            "assocAppl": "AP",
+            "orderStatus": "PENDING",
+            "orderDate": "2014-05-07 14:17:38.323",
+            "packageDetails": "HD STANDARD",
+            "bgStatus": "Open",
+            "backgroundCheckEditStatusDTO": []
+        },
+        {
+            "lastName": "COCO",
+            "firstName": "CHAMPA",
+            "applicantId": "116417535",
+            "customerReferenceId": "0000002236",
+            "assocAppl": "AP",
+            "orderStatus": "PENDING",
+            "orderDate": "2014-05-07 14:18:57.433",
+            "packageDetails": "HD STANDARD",
+            "bgStatus": "Open",
+            "backgroundCheckEditStatusDTO": []
+        },
+        {
+            "lastName": "SONNEN",
+            "firstName": "WAYNE",
+            "applicantId": "103204695",
+            "customerReferenceId": "0000001857",
+            "assocAppl": "AS",
+            "orderStatus": "COMPLETE",
+            "orderDate": "2014-05-20 11:50:43.04605",
+            "packageDetails": "HD STANDARD",
+            "bgStatus": "Green",
+            "backgroundCheckEditStatusDTO": [
+                {
+                    "employmentPositionCandidateId": "103204695   ",
+                    "backgroundCheckId": 467515,
+                    "createTimestamp": "May 17, 2004 9:43:52 PM",
+                    "componentName": "NATIONAL CRIMINAL FILE                ",
+                    "activeFlag": "A",
+                    "backgroundCheckSystemComponentCompletedDate": "May 4, 2004",
+                    "backgroundCheckSystemAlertStatusCode": 3,
+                    "overrideAlertStatusCode": 0,
+                    "backgroundCheckSystemComponentId": 7,
+                    "alertStatusDescription": "YELLOW",
+                    "backgroundCheckSystemComponentSequenceNumber": 1,
+                    "languageCode": "EN_US"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+<center>
+    <div class = "text-left">
+    <h2 align="center">Ratings</h2>
+    <h2 data-ng-if="errorMessage !== null">{{errorMessage}}</h2>
+    <h4>{{firstName}} {{lastName}}, {{jobTitle}}</h4>
+    </div>	
+   	<div id="searchResults" >
+         <fieldset>
+          <p><h4>Current Performance Rating</h4></p>
+          <div class="dataTableWrapper">
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>               
+                <tr>                   
+                    <th class="col-sm-3">Date</th>
+                    <th class="col-sm-3">Performance</th>
+                    <th class="col-sm-3">Potential</th>                   
+                </tr>
+            </thead>
+                <tbody>
+                <tr data-ng-repeat="item in model.records">                    
+                    <td class="col-sm-3">{{item.effectiveDate  | asDate | date: 'MM/dd/yyyy'}}</td>
+                    <td class="col-sm-3">{{item.performance}}</td>
+                    <td class="col-sm-3">{{item.potential}}</td>
+                </tr>                
+            </tbody>
+            </table>
+           </div>
+         </fieldset>
+         <fieldset>
+            <p><h4>Performance Rating History</h4></p>
+            <div class="dataTableWrapper">            
+            <table id="list" class="searchResults" style="width:100%">
+                <thead>               
+                <tr>                   
+                    <th class="col-sm-3">Date</th>
+                    <th class="col-sm-3">Performance</th>
+                    <th class="col-sm-3">Potential</th>
+                    <th class="col-sm-3">Leadership</th>                    
+                </tr>
+            </thead>
+                <tbody>
+                <tr data-ng-repeat="item in model.records1 ">                    
+                    <td class="col-sm-3">{{item.effectiveDate  | asDate | date: 'MM/dd/yyyy'}}</td>
+                    <td class="col-sm-3">{{item.performance}}</td>
+                    <td class="col-sm-3">{{item.potential}}</td>
+                    <td class="col-sm-3">{{item.leadership}}</td>
+                </tr>                
+            </tbody>
+            </table>
+        </div>
+  </fieldset> 
+  <P> 
+The Home Depot's performance rating system was changed in 2002 and again in 2008. Records from before 2002 show ratings from Horizons and the Tesseract payroll system. Records from 2002-2008 show ratings from Tesseract. Please refer to the Help screen for further details.</P>
+  <!-- Pre 2002 starts here --> 
+    <fieldset>
+            <p><h4>Performance Rating History</h4></p>
+            <div class="dataTableWrapper">            
+            <table id="list3" class="searchResults" style="width:100%">
+                <thead>               
+                <tr>                   
+                    <th class="col-sm-2">Date</th>
+                    <th class="col-sm-3">Performance</th>
+                    <th class="col-sm-3">Potential</th>
+                    <th class="col-sm-3">Nine Box Grid</th>
+                     <th class="col-sm-3">Review&nbsp;Rate</th>                     
+                </tr>
+            </thead>
+                <tbody>
+                <tr data-ng-repeat="item in model.records2 ">                    
+                    <td class="col-sm-3">{{item.effectiveDate  | asDate | date: 'MM/dd/yyyy'}}</td>
+                    <td class="col-sm-3">{{item.performance}}</td>
+                    <td class="col-sm-3">{{item.potential}}</td>
+                    <td class="col-sm-3">{{item.nineBoxGridDescription}}</td>
+                    <td class="col-sm-3">{{item.reviewRate}}</td>
+                </tr>                
+            </tbody>
+            </table>
+        </div>
+  </fieldset>
+  <!--  Pre 2002 ends here -->  
+    
+   </div>
+   
+   <!--  Buttons start here -->
+  	<div align="center">
+		<br/><br/>
+	    <button type="button" class="button ui-state-hover" data-ng-click="selectAssociate()">Select Associate</button>
+	    <button type="button" data-ng-disabled="!hasPrevious" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasPrevious]" data-ng-click="prevAssociate()">Previous Associate</button>
+	    <button type="button" data-ng-disabled="!hasNext" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasNext]" data-ng-click="nextAssociate()">Next Associate</button>
+	</div>
+  	<!--  Buttons ends here -->
+  	
+</center>
+
+

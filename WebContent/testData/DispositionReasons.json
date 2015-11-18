@@ -1,0 +1,55 @@
+{
+    "rejComboRes": {
+        "dtlList": [
+            {
+                "employmentPositionCandidateRejectReasonCode": 0,
+                "lastUpdateSystemUserId": "GXN5764                 ",
+                "lastUpdateTimestamp": "Jan 3, 2013 1:14:14 PM",
+                "displayReasonCode": "Viewed    ",
+                "shortReasonDescription": "Viewed Not Selected ",
+                "reasonDescription": "Viewed Not Selected"
+            },
+            {
+                "employmentPositionCandidateRejectReasonCode": 1,
+                "lastUpdateSystemUserId": "GXN5764                 ",
+                "lastUpdateTimestamp": "Jan 5, 2013 3:56:33 PM",
+                "displayReasonCode": "Available ",
+                "shortReasonDescription": "Availability        ",
+                "reasonDescription": "Available does not match needs"
+            },
+            {
+                "employmentPositionCandidateRejectReasonCode": 2,
+                "lastUpdateSystemUserId": "GXN5764                 ",
+                "lastUpdateTimestamp": "Jan 5, 2013 4:02:15 PM",
+                "displayReasonCode": "Experience",
+                "shortReasonDescription": "Experience          ",
+                "reasonDescription": "Experience does not match needs"
+            },
+            {
+                "employmentPositionCandidateRejectReasonCode": 3,
+                "lastUpdateSystemUserId": "GXN5764                 ",
+                "lastUpdateTimestamp": "Jan 5, 2013 4:02:45 PM",
+                "displayReasonCode": "Skills    ",
+                "shortReasonDescription": "Skills              ",
+                "reasonDescription": "Skills do not meet needs"
+            },
+            {
+                "employmentPositionCandidateRejectReasonCode": 4,
+                "lastUpdateSystemUserId": "GXN5764                 ",
+                "lastUpdateTimestamp": "Jan 5, 2013 4:03:59 PM",
+                "displayReasonCode": "Language  ",
+                "shortReasonDescription": "Language            ",
+                "reasonDescription": "Language skills do not meet needs"
+            },
+            {
+                "employmentPositionCandidateRejectReasonCode": 5,
+                "lastUpdateSystemUserId": "PSMTS                   ",
+                "lastUpdateTimestamp": "Oct 29, 2013 12:01:00 AM",
+                "displayReasonCode": "Listed    ",
+                "shortReasonDescription": "List - Not Selected ",
+                "reasonDescription": "Not Viewed - Not Selected"
+            }
+        ]
+    },
+    "rejectedReasonId": 0
+}

@@ -1,0 +1,40 @@
+{
+	"status":"SUCCESS",
+	"advancedSearchDataFields":[
+			
+{ "id" : "AssociateID" , "code" : "1", "label" : "Associate ID" },
+{ "id" : "CoursesCertification" , "code" : "1503", "label" : "Courses / Certifications" },
+{ "id" : "Degree" , "code" : "1602", "label" : "Degree" },
+{ "id" : "HaveDegree" , "code" : "2501", "label" : "Degree (Yes/No)" },
+{ "id" : "Department" , "code" : "203", "label" : "Department" },
+{ "id" : "District" , "code" : "402", "label" : "District" },
+{ "id" : "Division" , "code" : "401", "label" : "Division" },
+{ "id" : "FirstName" , "code" : "101", "label" : "First Name" },
+{ "id" : "Gender" , "code" : "116", "label" : "Gender" },
+{ "id" : "Group" , "code" : "3", "label" : "Group" },
+{ "id" : "IndividualCareerInterestReadiness" , "code" : "2702", "label" : "Individual Career Interest Readiness" },
+{ "id" : "IndividualCareerInterest" , "code" : "1802", "label" : "Individual Career Interests" },
+{ "id" : "JobTitle" , "code" : "202", "label" : "Job Title" },
+{ "id" : "KnownLanguage" , "code" : "2201", "label" : "Known Language" },
+{ "id" : "LastName" , "code" : "102", "label" : "Last Name" },
+{ "id" : "Location" , "code" : "501", "label" : "Location" },
+{ "id" : "Major" , "code" : "1603", "label" : "Major" },
+{ "id" : "OriginalHireDate" , "code" : "105", "label" : "Original Hire Date (mm/dd/yyyy)" },
+{ "id" : "PerformanceCode" , "code" : "1101", "label" : "Performance Code" },
+{ "id" : "PotentialCode" , "code" : "1102", "label" : "Potential Code" },
+{ "id" : "PotentialNextPositionReadiness" , "code" : "2703", "label" : "Potential Next Position Readiness" },
+{ "id" : "jobDescriptionOrRequested" , "code" : "1801", "label" : "Potential Next Positions" },
+{ "id" : "PreviousEmployer" , "code" : "1501", "label" : "Previous Employer" },
+{ "id" : "PreviousTitle" , "code" : "2101", "label" : "Previous Title at THD" },
+{ "id" : "RaceEthnicity" , "code" : "201", "label" : "Race / Ethnicity" },
+{ "id" : "Region" , "code" : "601", "label" : "Region" },
+{ "id" : "Relocate" , "code" : "2401", "label" : "Relocate (Yes/No)" },
+{ "id" : "SchoolName" , "code" : "1601", "label" : "School Name" },
+{ "id" : "StoreNumber" , "code" : "108", "label" : "Store Number" },
+{ "id" : "TimeInTitle" , "code" : "4", "label" : "Time in Title (In Years)" },
+{ "id" : "TimeWithCompany" , "code" : "107", "label" : "Time With Company (In Years)" }
+
+	]
+}
+
+

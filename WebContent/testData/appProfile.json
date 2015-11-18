@@ -1,0 +1,2237 @@
+{
+    "status": "SUCCESS",
+    "appPersonalInfoRes": {
+        "applPersonalInfoList": [
+            {
+                "applType": "AP",
+                "fullName": "COUSINS, JAILLISSIA D ",
+                "phoneNum": "6787057553",
+                "address1": "2614 OLD HAPEVILLE RD SW",
+                "address2": "#K2",
+                "cityStateZip": "ATLANTA, GA 30315",
+                "applID": "258911852",
+                "emailAddress": "JAI_COUSINS@YAHOO.COM",
+                "usaEligibility": "Y",
+                "over18": "Y",
+                "priorConviction": "Y",
+                "priorConvictionDate": "2000-01-01",
+                "priorConvictionText": "testPriorConvictionText",
+                "onLeaveOrLaidOff": "N",
+                "preEmployee": "N",
+                "location": "testLocation",
+                "dateFrom": "2000-01-01",
+                "dateTo": "2000-01-01",
+                "relWorkingForHD": "N",
+                "relName": "testRelName",
+                "milExperience": "N",
+                "milBranchName": "testBranch",
+                "milDateFrom": "2000-01-01",
+                "milDateTo": "2000-01-01",
+                "jobFullTime": "Y",
+                "jobPartTime": "Y",
+                "jobPerm": "Y",
+                "jobTemp": "Y",
+                "wageDesired": "0.00",
+                "wageOpen": "testWageOpen",
+                "emplApplicationDate": "2014-01-27",
+                "candRefNbr": "TestCandRefNbr"
+            }
+        ]
+    },
+    "applEducationInfoRes": {
+        "applEducationInfoTOList": [
+            {
+                "schoolName": "APALACHEE HIGH",
+                "education": "HIGH SCHOOL DIPLOMA/GED",
+                "graduate": "Y",
+                "areaStudy": "temp"
+            }
+        ]
+    },
+    "applWorkHistoryInfoRes": {
+        "applWorkHistoryInfoTOlist": [
+            {
+                "company": "LEWISQUEMACK@YAHOO.COM",
+                "position": "HOST SERVER",
+                "location": "",
+                "supervisor": "",
+                "comDateFrom": "1800-01-01",
+                "comDateTo": "2000-01-01",
+                "payAtLeaving": "0.00",
+                "supervisorTitle": "",
+                "jobDescription": "testDescription",
+                "reasonLeaving": ""
+            }
+        ]
+    },
+    "applJobPrefInfoRes": {
+        "applJobPrefInfoTO": [
+            {
+                "jobPref": "AFTERNOON_MON"
+            },
+            {
+                "jobPref": "EVENING_MON"
+            },
+            {
+                "jobPref": "AFTERNOON_TUE"
+            },
+            {
+                "jobPref": "EVENING_TUE"
+            },
+            {
+                "jobPref": "AFTERNOON_WED"
+            },
+            {
+                "jobPref": "EVENING_WED"
+            },
+            {
+                "jobPref": "AFTERNOON_THU"
+            },
+            {
+                "jobPref": "EVENING_THU"
+            },
+            {
+                "jobPref": "AFTERNOON_FRI"
+            },
+            {
+                "jobPref": "EVENING_FRI"
+            },
+            {
+                "jobPref": "AFTERNOON_SAT"
+            },
+            {
+                "jobPref": "EVENING_SAT"
+            },
+            {
+                "jobPref": "AFTERNOON_SUN"
+            },
+            {
+                "jobPref": "EVENING_SUN"
+            }
+        ]
+    },
+    "applLangInfoRes": {
+        "applLangInfoTOList": [
+            {
+                "language": "ENGLISH"
+            }
+        ]
+    },
+    "applSkillInfoRes": {
+        "applSkillInfoTOList": [
+          {
+                "skill": "General Sales"
+            },
+              {
+                "skill": "Computer"
+            },
+            {
+                "skill": "Stocking"
+            }
+        ]
+    },
+    "applPhnScreenInfoRes": {
+        "applPhnScreenInfoTOList": [
+            {
+                "requisitionNum": 0,
+                "storeNum": "testStore",
+                "deptNum": "testDept",
+                "job": "testJob",
+                "phnScreenStatus": "testPhoneStatus",
+                "status": "testStatus",
+                "phnScreenType": "testType",
+                "lastUpdate": "2000-01-01"}
+        ]
+    },
+    "applHistoryInfoRes": {
+        "applHistoryInfoTOList": [
+            {
+                "reqNumber": "testReq",
+                "store": "test0000",
+                "dept": "test000",
+                "title": "testTitle",
+                "intvDisposition": "testDispos",
+                "offerStatus": "testStatus",
+                "offerResults": "testRes",
+                "lastUpdated": "2000-01-01"
+            }
+        ]
+    },
+    "applAppHistoryInfoRes": {
+        "applAppHistoryInfoTOList": [
+            {
+                "store": "6941",
+                "lastUpdatedS": "2014-01-27 16:28:36.413402",
+                "position": "testpos",
+                "dept": "testDept",
+                "lastUpdatedP": "2014-01-27 16:28:36.413402"
+            },
+            {
+                "store": "6940",
+                "lastUpdatedS": "2014-01-27 16:28:36.50356"
+            },
+            {
+                "store": "1775",
+                "lastUpdatedS": "2014-01-27 16:28:36.365386"
+            },
+            {
+                "store": "1763",
+                "lastUpdatedS": "2014-01-27 16:28:36.426446"
+            },
+            {
+                "store": "1749",
+                "lastUpdatedS": "2014-01-27 16:28:36.531395"
+            },
+            {
+                "store": "0178",
+                "lastUpdatedS": "2014-01-27 16:28:36.393566"
+            },
+            {
+                "store": "0164",
+                "lastUpdatedS": "2014-01-27 16:28:36.446341"
+            },
+            {
+                "store": "0159",
+                "lastUpdatedS": "2014-01-27 16:28:36.51339"
+            },
+            {
+                "store": "0153",
+                "lastUpdatedS": "2014-01-27 16:28:36.404284"
+            },
+            {
+                "store": "0147",
+                "lastUpdatedS": "2014-01-27 16:28:36.468392"
+            },
+            {
+                "store": "0146",
+                "lastUpdatedS": "2014-01-27 16:28:36.43569"
+            },
+            {
+                "store": "0130",
+                "lastUpdatedS": "2014-01-27 16:28:36.455848"
+            },
+            {
+                "store": "0123",
+                "lastUpdatedS": "2014-01-27 16:28:36.378189"
+            },
+            {
+                "store": "0121",
+                "lastUpdatedS": "2014-01-27 16:28:36.490147"
+            },
+            {
+                "store": "0118",
+                "lastUpdatedS": "2014-01-27 16:28:36.356349"
+            },
+            {
+                "store": "0117",
+                "lastUpdatedS": "2014-01-27 16:28:36.337041"
+            },
+            {
+                "store": "0116",
+                "lastUpdatedS": "2014-01-27 16:28:36.522003"
+            },
+            {
+                "store": "0115",
+                "lastUpdatedS": "2014-01-27 16:28:36.326191"
+            },
+            {
+                "store": "0111",
+                "lastUpdatedS": "2014-01-27 16:28:36.478836"
+            }
+        ]
+    },
+    "applAppHistoryInfoRes2": {
+        "applAppHistoryInfoTOList2": [
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "FUEL SALES ASSOCIATE",
+                "dept": "988",
+                "lastUpdatedP": "2014-01-27 16:28:36.402862"
+            },
+            {
+                "position": "FUEL SALES ASSOCIATE",
+                "dept": "988",
+                "lastUpdatedP": "2014-01-27 16:28:36.402862"
+            },
+            {
+                "position": "ASSOCI\u00c9 AUX VENTES DE CARBURANT",
+                "dept": "988",
+                "lastUpdatedP": "2014-01-27 16:28:36.402862"
+            },
+            {
+                "position": "FUEL SALES ASSOCIATE",
+                "dept": "988",
+                "lastUpdatedP": "2014-01-27 16:28:36.402862"
+            },
+            {
+                "position": "FUEL SALES ASSOCIATE",
+                "dept": "988",
+                "lastUpdatedP": "2014-01-27 16:28:36.402862"
+            },
+            {
+                "position": "ASSOCI\u00c9 AUX VENTES DE CARBURANT",
+                "dept": "988",
+                "lastUpdatedP": "2014-01-27 16:28:36.402862"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "HEAD CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CAISSIER PRINCIPAL",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "JEFE DE CAJEROS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530368"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAISSIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "CAJERO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530296"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "CAJERO PRO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.53046"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "BILINGUAL CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAISSIER BILINGUE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "CAJERO BILING\u00dcE",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530428"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "PRO CASHIER",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAISSIER DES ENTREPRENEURS",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            },
+            {
+                "position": "CAJERO PRO",
+                "dept": "090",
+                "lastUpdatedP": "2014-01-27 16:28:36.530397"
+            }
+        ]
+    }
+}

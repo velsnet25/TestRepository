@@ -1,0 +1,19 @@
+{
+    "valid":true,
+    "storeDetails":{
+        "number":"0121",
+        "name":"CUMBERLAND",
+        "addressLine1":"2450 CUMBERLAND PKWY",
+        "addressLine2":"",
+        "city":"ATLANTA",
+        "state":"GA",
+        "postalCode":"30339",
+        "countryCode":"US",
+        "phoneNumber":"7704329930",
+        "districtCode":"01RH",
+        "regionCode":"MIDSOUTH REGION",
+        "divisionCode":"SOUTHERN DIVISION",
+        "storeDeleteAllowed":false,
+        "hireEventId":0
+    }
+}

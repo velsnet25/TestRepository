@@ -1,0 +1,19 @@
+{
+	"status":"SUCCESS",
+	"languageList":[
+		{
+		"language":"English",
+		"read":"Fluent",
+		"write":"Fluent",
+		"speak":"Fluent",
+		"preferred":true		
+		},
+		{
+		"language":"Cantonese",
+		"read":"No Ability",
+		"write":"No Ability",
+		"speak":"Basic",
+		"preferred":false		
+		}
+	]
+}

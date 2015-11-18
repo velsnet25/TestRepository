@@ -1,0 +1,6 @@
+{
+    "stores": [{"store":"0121"},{"store":"0234"}],
+    "categories": [{"name": "Carpentry", "testResult": "Pass"},
+        {"name":"Cashier", "testResult": "Pass"},
+        {"name": "Landscaping", "testResult": "Fail"}]
+}

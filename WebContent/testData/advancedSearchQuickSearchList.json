@@ -1,0 +1,15 @@
+{
+	"status":"SUCCESS",
+	"advancedSearchQuickSearchList":[
+		
+             			{ "id" : "1", "label" : "All Vice Presidents" },
+						{ "id" : "2", "label" : "All Officers" },
+						{ "id" : "3", "label" : "All Directors" },
+						{ "id" : "4", "label" : "All District Managers" },
+						{ "id" : "5", "label" : "All Merchants" },
+						{ "id" : "6", "label" : "All Store Managers" },
+						{ "id" : "7", "label" : "All HR Managers" },
+						{ "id" : "8", "label" : "All Asst. Store Managers" }
+	]
+}
+             			

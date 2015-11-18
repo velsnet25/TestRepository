@@ -1,0 +1,160 @@
+<style>
+
+#photo
+{
+	padding-bottom: 10px;
+	max-height: 377px;
+	max-width: 400px;
+}
+</style>
+<center>
+    <h2> Basic Information</h2>
+
+      <div spinner="basicInfoSpinner"></div>
+
+    <div class = "text-left"><h4>{{firstName}} {{lastName}}, {{jobTitle}}</h4></div>
+   	<div class = ".container no-horizontal-scroll" style = "min-height:410px;">
+  
+   		<div class ="row ">
+	   		<div class = "col-md-4">
+	   			<img name = "photo" id = "photo" width = "80%"  /><br><!-- data-ng-src = "servlet/getImage?ID={{associateId}}" -->
+    			<button type="button" class="button ui-state-hover" data-ng-click="ShowPhotoUploadModal()">Upload Picture</button>
+	   		</div>
+	   		<div class = "col-md-4">
+		   		<table class ="cell-border-white">
+		   		<tr>
+		   			<td colspan = "2" class = "text-center"> <h4>Personal</h4></td>
+		   		</tr>
+	    
+			   		
+			   			<tr>
+			   				<td class= "no-border text-right"><strong>ID</strong></td>
+			   				<td class = "cell-bordered text-left">{{model.basicInformationDTO.zeroEmployeeId}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Preferred Name</strong> </td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.nickName}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Birth/Age</strong></td>
+							<td class= "no-border">
+								<table class="no-side-border">
+									<tr>
+										<td class = "cell-bordered  text-left">{{model.basicInformationDTO.birthDate | asDate | date: 'MM/dd/yyyy'}}</td>
+										<td width = "2%"></td>
+										<td class = "cell-bordered  text-left">{{model.basicInformationDTO.age}}</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Gender</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.sexTypeCode}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Marital Status</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.maritalStatusCode}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Race</strong> </td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.raceDescription}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Original Hire Date</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.originHireDate | asDate | date: 'MM/dd/yyyy'}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Date in Curr Pos./Loc.</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.dateInCurrPosAndLoc | asDate | date: 'MM/dd/yyyy'}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Date in Curr Title</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.dateInCurrentTitle | asDate | date: 'MM/dd/yyyy'}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Citizenship</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.countryName}}{{&nbsp;;model.basicInformationDTO.citizenCountryCode}}</td>
+						</tr>
+			   		</table>
+			   	</div>
+	   		<div class = "col-md-4">
+	   			<table class ="cell-border-white">
+		   		<tr>
+		   			<td colspan = "2" class = "text-center"> <h4>Location</h4></td>
+		   		</tr>
+	    
+			   		
+			   			<tr>
+			   				<td class= "no-border text-right"><strong>Company</strong></td>
+			   				<td class = "cell-bordered  text-left">{{model.basicInformationDTO.oe02}} </td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Division</strong> </td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.humanResourcesSystemDivisionName}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Div Region</strong> </td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.operationsGroupName}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>District</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.humanResourcesSystemRegionCode}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Market</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.marketName}} </td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Store No.</strong> </td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.humanResourcesSystemStoreNumber}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Location</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.humanResourcesSystemStoreName}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Dept.</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.humanResourcesSystemDepartmentName}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Title</strong></td>
+							<td class = "cell-bordered  text-left">{{jobTitle}}</td>
+						</tr>
+						<tr>
+							<td class= "no-border text-right"><strong>Group</strong></td>
+							<td class = "cell-bordered  text-left">{{model.basicInformationDTO.divisionReference}}</td>
+						</tr>
+			   		</table>
+			   	</div>
+   		</div>
+   		
+   		
+   	</div>
+  	
+    
+    
+
+	<div align="center">
+	<br/><br/>
+    <button type="button" class="button ui-state-hover" data-ng-click="selectAssociate()">Select Associate</button>
+    <button type="button" data-ng-disabled="!hasPrevious" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasPrevious]" data-ng-click="prevAssociate()">Previous Associate</button>
+    <button type="button" data-ng-disabled="!hasNext" class="button ui-state-hover" data-ng-class="{true:'ui-state-disabled'}[!hasNext]" data-ng-click="nextAssociate()">Next Associate</button>
+    </div>
+    
+</center>
+
+<!--Edit Requisition Dialog-->
+<div modal="PhotoUploadDialog" modal-template=PhotoUploadDialog modal-template-folder="Templates" controller="PhotoUploadModalCtrl" modal-resolve="jobs.currentItem"></div>
+
+<!--Close confirm Dialog-->
+<script type="text/ng-template" id="ConfirmClose.html">
+    <div class="modal-header" id="closereq_dialog"><h3>WARNING: Close Requisition</h3></div>
+    <div class="modal-body"
+        <p>You have requested to close this job requisition.</p>
+        <p>Do you wish to continue?</p>
+    </div>
+    <div class="modal-footer">
+        <button  type="button" class="btn btn-primary" ng-click="ok()">OK</button>
+        <button  type="button" class="btn btn-warning" ng-click="cancel()">Cancel</button>
+    </div>
+</script>

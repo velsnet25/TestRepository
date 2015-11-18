@@ -1,0 +1,421 @@
+{
+    "status": "SUCCESS",
+    "valid": false,
+    "appPersonalInfoRes": {
+        "applPersonalInfoList": [
+            {
+                "applType": "AS",
+                "fullName": "SNYDER,MICHELLE M",
+                "phoneNum": "678-433-8211",
+                "address1": "2455 PACES FERRY RD",
+                "address2": "",
+                "cityStateZip": "DULUTH, GA 30096",
+                "applID": "114043934",
+                "candRefNbr": "2195"
+            }
+        ]
+    },
+    "appAssociateInfoRes": {
+        "applAssociateInfoTOList": [
+            {
+                "currStore": "9090",
+                "currDept": "608",
+                "currTitle": "SSROBA",
+                "currStatus": "FS",
+                "hireDate": "2010-01-25"
+            }
+        ]
+    },
+    "associateReviewRes": {
+        "applAssociateInfoTOList": [
+            {
+                "date": "2012-05-01",
+                "results": "3"
+            },
+            {
+                "date": "2011-04-26",
+                "results": "3"
+            },
+            {
+                "date": "2010-04-27",
+                "results": "3"
+            }
+        ]
+    },
+    "associatePrePosRes": {
+        "associatePrePosTOList": [
+            {
+                "dept": "608",
+                "position": "SSROBA",
+                "dateFrom": "2012-01-30",
+                "dateTo": "2099-12-31"
+            },
+            {
+                "dept": "608",
+                "position": "SSROBA",
+                "dateFrom": "2011-12-26",
+                "dateTo": "2012-01-30"
+            },
+            {
+                "dept": "608",
+                "position": "SSROBA",
+                "dateFrom": "2010-06-07",
+                "dateTo": "2011-12-26"
+            },
+            {
+                "dept": "608",
+                "position": "SSROBA",
+                "dateFrom": "2010-02-01",
+                "dateTo": "2010-06-07"
+            },
+            {
+                "dept": "608",
+                "position": "SSROBA",
+                "dateFrom": "2010-02-01",
+                "dateTo": "2010-02-01"
+            },
+            {
+                "dept": "608",
+                "position": "SSROBA",
+                "dateFrom": "2010-01-25",
+                "dateTo": "2010-02-01"
+            }
+        ]
+    },
+    "applLangInfoRes": {
+        "applLangInfoTOList": [
+            {
+                "language": "AS,SPANISH,"
+            }
+        ]
+    },
+    "applSkillInfoRes": {
+        "applSkillInfoTOList": [
+            {
+                "skill": "Carpentry"
+            },
+            {
+                "skill": "Framing"
+            }
+        ]
+    },
+    "applPhnScreenInfoRes": {
+        "applPhnScreenInfoList": [
+            {
+                "requisitionNum": 102448298,
+                "storeNum": "0403",
+                "deptNum": "021",
+                "job": "SALES",
+                "phnScreenStatus": "PHN SCREEN COMPLETED",
+                "status": "SCHEDULE INTERVIEW",
+                "phnScreenType": "DETAILED",
+                "lastUpdate": "2014-03-21"
+            }
+        ]
+    },
+    "applHistoryInfoRes": {
+        "applHistoryInfoTOList": [
+            {
+                "reqNumber": "150164427",
+                "store": "0403",
+                "dept": "021",
+                "title": "SALES ASSOCIATE",
+                "intvDisposition": "",
+                "offerStatus": "",
+                "offerResults": ""
+            }
+        ]
+    },
+    "applAppHistoryInfoRes": {
+        "applAppHistoryInfoTOList": [
+            {
+                "store": "0403",
+                "lastUpdatedS": "2013-10-07T13:40:58.120"
+            }
+        ]
+    },
+    "applAppHistoryInfoRes2": {
+        "applAppHistoryInfoTOList2": [
+            {
+                "position": "BLSALE",
+                "dept": "021",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "021",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SALES",
+                "dept": "021",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SPLST",
+                "dept": "021",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "BLSALE",
+                "dept": "022",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "022",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SALES",
+                "dept": "022",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "SPLST",
+                "dept": "022",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "023",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "SALES",
+                "dept": "023",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "SPLST",
+                "dept": "023",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "BLSALE",
+                "dept": "024",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "024",
+                "lastUpdatedP": "2014-04-30T14:09:50.894"
+            },
+            {
+                "position": "SALES",
+                "dept": "024",
+                "lastUpdatedP": "2014-04-30T14:09:50.894"
+            },
+            {
+                "position": "SPLST",
+                "dept": "024",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "BLSALE",
+                "dept": "025",
+                "lastUpdatedP": "2014-04-30T14:09:50.894"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "025",
+                "lastUpdatedP": "2014-04-30T14:09:50.894"
+            },
+            {
+                "position": "SALES",
+                "dept": "025",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SPLST",
+                "dept": "025",
+                "lastUpdatedP": "2014-04-30T14:09:50.890"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "026",
+                "lastUpdatedP": "2014-04-30T14:09:50.890"
+            },
+            {
+                "position": "MTRDSP",
+                "dept": "026",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "SALES",
+                "dept": "026",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "SPLST",
+                "dept": "026",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "027",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "MTRDSP",
+                "dept": "027",
+                "lastUpdatedP": "2014-04-30T14:09:50.887"
+            },
+            {
+                "position": "SALES",
+                "dept": "027",
+                "lastUpdatedP": "2014-04-30T14:09:50.887"
+            },
+            {
+                "position": "SPLST",
+                "dept": "027",
+                "lastUpdatedP": "2014-04-30T14:09:50.887"
+            },
+            {
+                "position": "BLSALE",
+                "dept": "028",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "028",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "SALES",
+                "dept": "028",
+                "lastUpdatedP": "2014-04-30T14:09:50.891"
+            },
+            {
+                "position": "SPLST",
+                "dept": "028",
+                "lastUpdatedP": "2014-04-30T14:09:50.892"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "030",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SALES",
+                "dept": "030",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SPLST",
+                "dept": "030",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "EXPDTR",
+                "dept": "031",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "031",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SPLORD",
+                "dept": "031",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SPLST",
+                "dept": "031",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SALES",
+                "dept": "033",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SALES",
+                "dept": "036",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "EXPORT",
+                "dept": "037",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SALES",
+                "dept": "037",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "EXPDTR",
+                "dept": "041",
+                "lastUpdatedP": "2014-04-30T14:09:50.886"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "041",
+                "lastUpdatedP": "2014-04-30T14:09:50.894"
+            },
+            {
+                "position": "BLPSAL",
+                "dept": "042",
+                "lastUpdatedP": "2014-04-30T14:09:50.885"
+            },
+            {
+                "position": "EXPDTR",
+                "dept": "042",
+                "lastUpdatedP": "2014-04-30T14:09:50.894"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "042",
+                "lastUpdatedP": "2014-04-30T14:09:50.894"
+            },
+            {
+                "position": "PASALS",
+                "dept": "042",
+                "lastUpdatedP": "2014-04-30T14:09:50.865"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "059",
+                "lastUpdatedP": "2014-04-30T14:09:50.894"
+            },
+            {
+                "position": "SALES",
+                "dept": "059",
+                "lastUpdatedP": "2014-04-30T14:09:50.894"
+            },
+            {
+                "position": "SPLST",
+                "dept": "059",
+                "lastUpdatedP": "2014-04-30T14:09:50.894"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "070",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "078",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SALES",
+                "dept": "085",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "SPLST",
+                "dept": "085",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            },
+            {
+                "position": "HLGSPC",
+                "dept": "089",
+                "lastUpdatedP": "2014-04-30T14:09:50.893"
+            }
+        ]
+    }
+}

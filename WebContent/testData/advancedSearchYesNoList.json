@@ -1,0 +1,9 @@
+{
+	"status":"SUCCESS",
+	"advancedSearchYesNoList":[
+		
+             			{ "id" : "Yes", "label" : "Yes" },
+             			{ "id" : "No", "label" : "No" }
+	]
+}
+             			

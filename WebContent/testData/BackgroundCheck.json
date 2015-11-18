@@ -1,0 +1,126 @@
+{
+    "status": "SUCCESS",
+    "valid": true,
+    "backGroundCheckList": [
+        {
+            "lastName": "AMTHREELAST",
+            "firstName": "AMTHREE",
+            "applicantId": "122024995",
+            "customerReferenceId": "0000194812",
+            "assocAppl": "AP",
+            "orderStatus": "",
+            "orderDate": "2013-10-03 09:58:29.235",
+            "packageDetails": "HD STANDARD",
+            "bgStatus": "Green",
+            "backgroundCheckEditStatusDTO": [
+                {
+                    "employmentPositionCandidateId": "122024995   ",
+                    "backgroundCheckId": 610010303,
+                    "activeFlag": "A",
+                    "backgroundCheckSystemAlertStatusCode": 3,
+                    "overrideAlertStatusCode": 0,
+                    "backgroundCheckSystemComponents": [
+                        {
+                            "componentId": "2",
+                            "sequenceNumber": "1"
+                        },
+                        {
+                            "componentId": "6",
+                            "sequenceNumber": "1"
+                        }
+                    ],
+                    "alertStatusDescription": "GREEN"
+                }
+            ]
+        },
+        {
+            "lastName": "HAZLEWOOD",
+            "firstName": "JOSH",
+            "applicantId": "122040020",
+            "customerReferenceId": "0000194817",
+            "assocAppl": "AP",
+            "orderStatus": "IN PROCESS",
+            "orderDate": "2013-10-03 09:16:26.495",
+            "packageDetails": "HD STANDARD",
+            "bgStatus": "Green",
+            "backgroundCheckEditStatusDTO": [
+                {
+                    "employmentPositionCandidateId": "122040020   ",
+                    "backgroundCheckId": 610200304,
+                    "activeFlag": "A",
+                    "backgroundCheckSystemAlertStatusCode": 2,
+                    "overrideAlertStatusCode": 0,
+                    "backgroundCheckSystemComponents": [
+                        {
+                            "componentId": "3",
+                            "sequenceNumber": "1"
+                        }
+                    ],
+                    "alertStatusDescription": "GREEN"
+                }
+            ]
+        },
+        {
+            "lastName": "HAZLEWOOD",
+            "firstName": "JOSH",
+            "applicantId": "122040020",
+            "customerReferenceId": "0000194817",
+            "assocAppl": "AP",
+            "orderStatus": "IN PROCESS",
+            "orderDate": "2013-10-03 09:16:26.495",
+            "packageDetails": "HD STANDARD",
+            "bgStatus": "Green",
+            "backgroundCheckEditStatusDTO": [
+                {
+                    "employmentPositionCandidateId": "122040020   ",
+                    "backgroundCheckId": 610200304,
+                    "activeFlag": "A",
+                    "backgroundCheckSystemAlertStatusCode": 2,
+                    "overrideAlertStatusCode": 0,
+                    "backgroundCheckSystemComponents": [
+                        {
+                            "componentId": "2",
+                            "sequenceNumber": "1"
+                        },
+                        {
+                            "componentId": "6",
+                            "sequenceNumber": "1"
+                        }
+                    ],
+                    "alertStatusDescription": "RED"
+                }
+            ]
+        },
+        {
+            "lastName": "HAZLEWOOD",
+            "firstName": "JOSH",
+            "applicantId": "122040020",
+            "customerReferenceId": "0000194817",
+            "assocAppl": "AP",
+            "orderStatus": "IN PROCESS",
+            "orderDate": "2013-10-03 09:16:26.495",
+            "packageDetails": "HD STANDARD",
+            "bgStatus": "Green",
+            "backgroundCheckEditStatusDTO": [
+                {
+                    "employmentPositionCandidateId": "122040020   ",
+                    "backgroundCheckId": 610200304,
+                    "activeFlag": "A",
+                    "backgroundCheckSystemAlertStatusCode": 2,
+                    "overrideAlertStatusCode": 0,
+                    "backgroundCheckSystemComponents": [
+                        {
+                            "componentId": "2",
+                            "sequenceNumber": "1"
+                        },
+                        {
+                            "componentId": "6",
+                            "sequenceNumber": "1"
+                        }
+                    ],
+                    "alertStatusDescription": "YELLOW"
+                }
+            ]
+        }
+    ]
+}

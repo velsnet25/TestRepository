@@ -1,0 +1,18 @@
+{"Response": {
+  "tiering": 0,
+  "candidates": [
+    {
+      "id": "112055025",
+      "name": "LANE,RONALD W",
+      "store": "9090",
+      "department": "851",
+      "jobTitle": "021",
+      "type": "AS",
+      "availInd": "Y",
+      "emplCat": "FS",
+      "updTs": "2013-11-05 10:53:19.058021",
+      "prefIndicator": "Y",
+      "consideredFlg": "Y"
+    }
+  ]
+}}

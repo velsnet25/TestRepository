@@ -1,0 +1,99 @@
+{
+    "status": "SUCCESS",
+    "valid": false,
+    "applicantAvailbilityResponse": {
+        "applicantAvailabilityDetailsTO": {
+            "available": false
+        }
+    },
+    "appPersonalInfoRes": {
+        "applPersonalInfoList": [
+            {
+                "applType": "AP",
+                "fullName": "BLAKE, DONOVAN L ",
+                "phoneNum": "8885285465",
+                "address1": "796 NORTH EAST ROAD",
+                "address2": "",
+                "cityStateZip": "HONOLULU, GU 56231",
+                "applID": "122517080",
+                "emailAddress": "MANIKANDAN_CHANDRASEKAR@HOMEDEPOT.COM",
+                "usaEligibility": "Y",
+                "over18": "Y",
+                "onLeaveOrLaidOff": "N",
+                "preEmployee": "N",
+                "relWorkingForHD": "N",
+                "milExperience": "N",
+                "jobFullTime": "Y",
+                "jobPartTime": "Y",
+                "jobTemp": "Y",
+                "wageDesired": 545,
+                "emplApplicationDate": "2013-10-05",
+                "candRefNbr": "2432"
+            }
+        ]
+    },
+    "applJobPrefInfoRes": {
+        "applJobPrefInfoTO": [
+            {
+                "jobPref": "AFTERNOON_MON"
+            },
+            {
+                "jobPref": "LATE PM_MON"
+            },
+            {
+                "jobPref": "AFTERNOON_TUE"
+            },
+            {
+                "jobPref": "LATE PM_TUE"
+            },
+            {
+                "jobPref": "AFTERNOON_WED"
+            },
+            {
+                "jobPref": "LATE PM_WED"
+            },
+            {
+                "jobPref": "AFTERNOON_THU"
+            },
+            {
+                "jobPref": "LATE PM_THU"
+            },
+            {
+                "jobPref": "AFTERNOON_FRI"
+            },
+            {
+                "jobPref": "LATE PM_FRI"
+            }
+        ]
+    },
+    "applLangInfoRes": {
+        "applLangInfoTOList": [
+            {
+                "language": "GREEK"
+            }
+        ]
+    },
+    "applSkillInfoRes": {
+        "applSkillInfoTOList": [
+            {
+                "skill": "Drywall"
+            },
+            {
+                "skill": "Masonry"
+            }
+        ]
+    },
+    "applHistoryInfoRes": {
+        "applHistoryInfoTOList": [
+            {
+                "reqNumber": "150164427",
+                "store": "0403",
+                "dept": "021",
+                "title": "SALES ASSOCIATE",
+                "intvDisposition": "",
+                "offerStatus": "",
+                "offerResults": ""
+            }
+        ]
+    }
+}

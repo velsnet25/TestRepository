@@ -1,0 +1,30 @@
+{
+	"status":"SUCCESS",
+	"valid":false,
+	"workHistoryList":[
+	{
+			"position":"Frigth Team Associate",
+			"division":"Northern Division",
+			"actionDescription":"Dept Title Change",
+			"from":"10/12/2013",
+			"to": "11/12/2014",
+			"location":"0121"
+		},
+		{
+			"position":"Cashier",
+			"division":"Atlanta Division",
+			"actionDescription":"Dept Title Change",
+			"from":"10/12/2013",
+			"to": "11/12/2014",
+			"location":"0133"
+		},
+		{
+			"position":"Head Casheir",
+			"division":"Southern Division",
+			"actionDescription":"Dept Title Change",
+			"from":"10/12/2013",
+			"to": "11/12/2014",
+			"location":"0403"
+		}
+	]
+}

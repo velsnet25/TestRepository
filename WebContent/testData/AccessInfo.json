@@ -1,0 +1,22 @@
+{
+
+    "lastName": "TESTER2715",
+    "commonName": "",
+    "firstName": "",
+    "location": "9100",
+    "access": {
+        "viewDrugResults": true,
+        "printApplication": true,
+        "editReq": true,
+        "editBackgroundCheck": true,
+        "closeReq": true,
+        "candidateSearch": true,
+        "createQualifiedPool": true,
+        "addRemoveCandidate": true,
+        "moveCandidate": true,
+        "viewReq": true,
+        "viewBackgroundCheckStatus": true,
+        "viewBackgroundCheckResults": true,
+        "viewCandidateList": true
+    }
+}

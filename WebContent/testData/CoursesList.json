@@ -1,0 +1,34 @@
+{
+	"status":"SUCCESS","courseList":[
+		{
+			"courses":"Data Structures",
+			"organization":"School",
+			"start":"2013",
+			"end":"2014"
+		},
+		{
+			"courses":"Artificial Intelligence",
+			"organization":"School",
+			"start":"2009",
+			"end":"2011"
+		},
+		{
+			"courses":"Computer Organization",
+			"organization":"School",
+			"start":"2014",
+			"end":"2014"
+		},
+		{
+			"courses":"Operating Systems",
+			"organization":"School",
+			"start":"2011",
+			"end":"2013"
+		},
+		{
+			"courses":"Computer Architecture",
+			"organization":"School",
+			"start":"2011",
+			"end":"2012"
+		}
+	]
+}

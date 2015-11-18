@@ -1,0 +1,44 @@
+{
+	"status":"SUCCESS","educationList":[
+		{
+			"location":"FL",
+			"schoolType":"College",
+			"school":"UF",
+			"degree":"BS",
+			"major":"CS",
+			"grad": "Y",
+			"yearsCompleted":"4",
+			"gradYear":"2013"
+		},
+		{
+			"location":"TX",
+			"schoolType":"College",
+			"school":"USF",
+			"degree":"BS",
+			"major":"EE",
+			"grad": "N",
+			"yearsCompleted":"2",
+			"gradYear":"2015"
+		},
+		{
+			"location":"OK",
+			"schoolType":"High School",
+			"school":"AHS",
+			"degree":"None",
+			"major":"None",
+			"grad": "Y",
+			"yearsCompleted":"4",
+			"gradYear":"2013"
+		},
+		{
+			"location":"GA",
+			"schoolType":"College",
+			"school":"GT",
+			"degree":"BS",
+			"major":"IE",
+			"grad": "Y",
+			"yearsCompleted":"4",
+			"gradYear":"2008"
+		}
+	]
+}

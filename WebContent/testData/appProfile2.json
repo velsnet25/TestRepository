@@ -1,0 +1,202 @@
+{
+   "status": "SUCCESS",
+   "valid": false,
+   "appPersonalInfoRes": {
+      "applPersonalInfoList": [
+         {
+            "applType": "AP",
+            "fullName": "SMITH, BONNIE  ",
+            "phoneNum": "2075763564",
+            "address1": "3 JOHN ST",
+            "address2": "",
+            "cityStateZip": "GREENE, ME 04236",
+            "applID": "100330661",
+            "emailAddress": "BWSMITH72@ROADRUNNER.COM",
+            "usaEligibility": "Y",
+            "over18": "Y",
+            "onLeaveOrLaidOff": "N",
+            "preEmployee": "N",
+            "relWorkingForHD": "N",
+            "milExperience": "N",
+            "jobFullTime": "Y",
+            "jobPartTime": "Y",
+            "jobTemp": "Y",
+            "wageDesired": 0,
+            "emplApplicationDate": "Nov 12, 2013",
+            "candRefNbr": "2826"
+         }
+      ]
+   },
+   "applEducationInfoRes": {
+      "applEducationInfoTOList": [
+         {
+            "schoolName": "WHITE MOUNTAIN REGIONAL H",
+            "education": "N/A",
+            "graduate": "Y"
+         },
+         {
+            "schoolName": "USM",
+            "education": "N/A",
+            "graduate": "Y"
+         }
+      ]
+   },
+   "applWorkHistoryInfoRes": {
+      "applWorkHistoryInfoTOlist": [
+         {
+            "company": "ING DIRECT",
+            "position": "CUSTOMER SERVICE REP",
+            "location": "",
+            "supervisor": "",
+            "comDateFrom": "2",
+            "comDateTo": "Jan 1, 2013",
+            "payAtLeaving": 0,
+            "supervisorTitle": "",
+            "reasonLeaving": ""
+         },
+         {
+            "company": "DEBLOIS ELECTRIC",
+            "position": "ADMINISTRATIVE ASSIS",
+            "location": "",
+            "supervisor": "",
+            "comDateFrom": "Jan 1, 1998",
+            "comDateTo": "Jan 1, 2008",
+            "payAtLeaving": 0,
+            "supervisorTitle": "",
+            "reasonLeaving": ""
+         },
+         {
+            "company": "LL BEAN",
+            "position": "ORDER REPRESENTATIVE",
+            "location": "",
+            "supervisor": "",
+            "comDateFrom": "Jan 1, 2007",
+            "comDateTo": "Jan 1, 2008",
+            "payAtLeaving": 0,
+            "supervisorTitle": "",
+            "reasonLeaving": ""
+         }
+      ]
+   },
+   "applJobPrefInfoRes": {
+      "applJobPrefInfoTO": [
+         {
+            "jobPref": "MORNING_MON"
+         },
+         {
+            "jobPref": "AFTERNOON_MON"
+         },
+         {
+            "jobPref": "EVENING_MON"
+         },
+         {
+            "jobPref": "LATE PM_MON"
+         },
+         {
+            "jobPref": "MORNING_TUE"
+         },
+         {
+            "jobPref": "AFTERNOON_TUE"
+         },
+         {
+            "jobPref": "EVENING_TUE"
+         },
+         {
+            "jobPref": "LATE PM_TUE"
+         },
+         {
+            "jobPref": "MORNING_WED"
+         },
+         {
+            "jobPref": "AFTERNOON_WED"
+         },
+         {
+            "jobPref": "EVENING_WED"
+         },
+         {
+            "jobPref": "LATE PM_WED"
+         },
+         {
+            "jobPref": "MORNING_THU"
+         },
+         {
+            "jobPref": "AFTERNOON_THU"
+         },
+         {
+            "jobPref": "EVENING_THU"
+         },
+         {
+            "jobPref": "LATE PM_THU"
+         },
+         {
+            "jobPref": "MORNING_FRI"
+         },
+         {
+            "jobPref": "AFTERNOON_FRI"
+         },
+         {
+            "jobPref": "EVENING_FRI"
+         },
+         {
+            "jobPref": "LATE PM_FRI"
+         },
+         {
+            "jobPref": "MORNING_SAT"
+         },
+         {
+            "jobPref": "AFTERNOON_SAT"
+         },
+         {
+            "jobPref": "EVENING_SAT"
+         },
+         {
+            "jobPref": "LATE PM_SAT"
+         },
+         {
+            "jobPref": "MORNING_SUN"
+         },
+         {
+            "jobPref": "AFTERNOON_SUN"
+         },
+         {
+            "jobPref": "EVENING_SUN"
+         },
+         {
+            "jobPref": "LATE PM_SUN"
+         }
+      ]
+   },
+   "applLangInfoRes": {
+      "applLangInfoTOList": [
+         {
+            "language": "ENGLISH"
+         }
+      ]
+   },
+   "applSkillInfoRes": {
+      "applSkillInfoTOList": [
+         {
+            "skill": "Lighting"
+         },
+         {
+            "skill": "Nursery/Horticulture"
+         },
+         {
+            "skill": "Computer"
+         }
+      ]
+   },
+   "applHistoryInfoRes": {
+      "applHistoryInfoTOList": [
+         {
+            "reqNumber": "150164425",
+            "store": "0106",
+            "dept": "021",
+            "title": "SALES ASSOCIATE",
+            "intvDisposition": "",
+            "offerStatus": "",
+            "offerResults": ""
+         }
+      ]
+   }
+}

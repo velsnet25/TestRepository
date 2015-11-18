@@ -1,0 +1,9 @@
+{
+	"status":"SUCCESS",
+	"advancedSearchSexList":[
+		
+             			{ "id" : "F", "label" : "Female" },
+             			{ "id" : "M", "label" : "Male" }
+	]
+}
+             			

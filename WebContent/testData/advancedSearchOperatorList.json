@@ -1,0 +1,21 @@
+{
+	"status":"SUCCESS",
+	"advancedSearchOperatorList":[
+		
+						{ "id" : "=", "label" : "=" },
+             			{ "id" : "<>", "label" : "<>" },	
+             			{ "id" : ">", "label" : ">" },
+             			{ "id" : "<", "label" : "<" },				 							
+             			{ "id" : ">=", "label" : ">=" },				 							
+             			{ "id" : "<=", "label" : "<=" },				 							
+             			{ "id" : "IN", "label" : "In" },
+             			{ "id" : "NOT IN", "label" : "Not In" },
+             			{ "id" : "LIKE", "label" : "Like" },				 							
+             			{ "id" : "NOT LIKE", "label" : "Not Like" },				 							
+             			{ "id" : "BETWEEN", "label" : "Between" },
+            			{ "id" : "NOT BETWEEN", "label" : "Not Between" },				 							
+             			{ "id" : "IS NULL", "label" : "Is Null" },				 							
+             			{ "id" : "IS NOT NULL", "label" : "Is Not Null" }
+	]
+}
+             			
